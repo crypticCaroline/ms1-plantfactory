@@ -1,45 +1,114 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Plant Factory 
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Mock Up  
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Link to Live Website 
+GitHub Repo 
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## About 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Index – Table of Contents
 
-A blue button should appear to click: *Make Public*,
+* User Experience (UX)
+* Features
+* Designs
+* Technologies Used
+* Testing 
+* Known Bugs
+* Deployment
+* Acknowledgements 
 
-Another blue button should appear to click: *Open Browser*.
+## User Experience (UX)
+#### User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Existing Features
 
-## Updates Since The Instructional Video
+    Header - logo -hero images -  
+    Nav links work -  'active' - hover
+    Navigation collapse for mobile
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    Images - alt (screen readers non loaders).
+    aria-label - toggles and Accessibility
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    Buttons consistency - correct links
+    Responsiveness - media querys?
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    Footer - social media - opening times - address and contact detais
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    Home
+    About Us
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    Happy Customers _ galley and testamonies 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    Request a quote (form )
+	
+## Designs
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    ### Color
+    ### Typography 
+    ### Layout -  wire frames 
+    ### Imagry 
+    ### Mock UPs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Technologies Used 
+    HTML5 CCS3 
 
-Happy coding!
+    Libaries 
+    Bootstrap,  google fonts,  (mock up)  Balsamic wireframe 
+    github git pod
+
+
+## Testing 
+
+    Nav - links
+    Button - Forms - requests
+    Footer - social links 
+    HTML Validator 
+    CSS Validator
+### Usability Testing
+    Friends /slack 
+### Browser Compatibility
+    Tested on Chrome, Firefox, Brave,  Internet Explorer, Microsoft Edge, Safari.
+### OS Compatibility
+    Tested on iOS , Android 10 and Windows 10.
+    Tested for responsivness on Chrome DevTools.
+### Performance Testing
+    Tested on Developer Tools Lighthouse.
+
+### Testing User Stories
+    go through each story what is wanted? 
+
+
+## Deployment 
+### Publishing 
+### cloning 
+### forking 
+
+## Known bugs 
+
+
+## Credit
+
+### Code :
+    •	Bootstrap library was used to create a responsive design.
+### Content :
+    •	Code : Rebecca Kelsall ---- and ()
+
+README file help 
+Code Institute SampleREADME
+Code Institute README Template
+Markdown Cheatsheet
+
+### Media :
+
+### Inspiration : 
+
+
+### Acknowledgements
+Thank you ----
+
