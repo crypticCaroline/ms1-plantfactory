@@ -6,35 +6,89 @@ html, body {
 
 /*...................................................................................................Colors.....*/
 .bg-color-nav {
-    background-color: #A7AF8A;
+    background-color: #b1c2aa;
 }
 
 .bg-color-benefits {
-    background-color: #A7AF8A;
+    background-color: #b1c2aa;
 
 }
 
 .bg-color-what {
-    background-color: #3B4A3F; 
+    background-color:#D5FADD;
+    
+    
 }
 
-/*....................................................................................................Header....*/
+#bg-color-footer {
+    background-color:	#607e60 
+   
+}
+
+/*....................................................................................................Header...*/
+nav {
+    max-height: 36px;
+}
+
+
+/*....................................................................................................Hero Image....*/
 .hero-image {
     background:url("../images/hero-plant.jpg");
-    height:450px;
+    height:400px;
     width:100%;
     background-size:cover;
     background-position: left;
-    position:relative;
     background-repeat: no-repeat;
     overflow: hidden;
    
 }
 
+div .jumbotron {
+    background-color: rgb(235 235 235 / 0.05);
+    position: absolute;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+/*..............................................................................................................Body */
+.container-pattern {
+        background-image:url(../images/plant-pattern.jpg);
+        background-size: cover;
+        height:250px; 
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width:100%;
+   
+}
+    .container-first {
+        height: 250px;
+        width:100%;
+
+
+}
+
+/* overwrtites bootstraps .container-fluid class*/
+.container-fluid.container-wide {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+footer.row {
+    min-height: 40px;
+    padding-bottom: 0px;
+}
+
+
 @media(min-width: 728px) {
     .hero-image {
         background:url("../images/plant-hero-edit.jpg");
-        height:450px;
+        height:550px;
         width:100%;
         background-size:cover;
         background-position: center;
@@ -42,15 +96,20 @@ html, body {
         background-repeat: no-repeat;
         overflow: hidden;
     }
+    .container-pattern {
+        background-image:url(../images/plant-pattern.jpg);
+        background-size: cover;
+        height:500px; 
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width:100%;
+   
+    }
+    .container-first {
+        height: 500px;
+        width:100%;
+
+
+    }
 
 }
-
-div .jumbotron {
-    background-color: rgba(43, 230, 127, 0.22);
-    position: absolute;
-    background-size:cover;
-    height: 100%;
-    width: 100%;
-    margin-right: 0px;
-    overflow: hidden;
-} 

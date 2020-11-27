@@ -48,10 +48,10 @@ GitHub Repo
 	
 ## Designs
 
-    ### Color
+    ### Color -https://mycolor.space/?hex=%232BE67F&sub=1
     ### Typography 
     ### Layout -  wire frames 
-    ### Imagry 
+    ### Imagry -  should the hero or pattern image fail there is a background color set
     ### Mock UPs
 
 
