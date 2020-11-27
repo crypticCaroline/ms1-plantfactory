@@ -1,7 +1,23 @@
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
+
+
+/*...................................................................................................Colors.....*/
+.bg-color-nav {
+    background-color: #A7AF8A;
+}
+
+.bg-color-benefits {
+    background-color: #A7AF8A;
+
+}
+
+.bg-color-what {
+    background-color: #3B4A3F; 
+}
+
 /*....................................................................................................Header....*/
 .hero-image {
     background:url("../images/hero-plant.jpg");
