@@ -1,0 +1,25 @@
+
+
+/*....................................................................................................Header....*/
+.hero-image {
+    background:url("../images/hero-plant.jpg");
+    height:450px;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 30px;
+    z-index: 1;
+    overflow: hidden;
+    position:relative;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+div .jumbotron {
+    background-color: rgba(89, 161, 121, 0.22);
+    position: absolute;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    
+}
