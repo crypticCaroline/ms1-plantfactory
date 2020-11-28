@@ -27,45 +27,73 @@
     <section>
         <div class="row">
             <div class="col ">
-                <div class="hero-image">
-                    <div class="jumbotron hero-text">
-                        <h2 class="text-uppercase">Plant Factory</h2>
-                        <h4>Make your office the perfect place to grow</h4>
+                <div class="container-pattern-form">
+                    <div class="jumbotron-form">
+                        <div class="fit-center text-center">
+                            <h2 class="text-uppercase">Plant Factory</h2>
+                            <p><i>Fill out are form and one of our fantastic team memebers will get back to you.</i></p>
+                                <div class="request-form container">
+                                    <div class="form-header text-center">
+                                        <form class="request-form">
+                                            <div>
+                                                <label for="bname">Buisness Name :</label>
+                                                <input type="text" name="bname" id="bname"  required>
+
+                                                <label for="bcontact">Contact :</label>
+                                                <input type="text" name="bcontact" id="bcontact"  required>
+
+                                                <label for="email">Email :</label>
+                                                <input type="email" name="email" id="email" required>
+
+                                                <label for="number">Number :</label>
+                                                <input type="number" name="number" id="number"  required>
+                                            
+                                            </div>
+
+                                            <div>
+                                                <h5 class="pref-contact-text">Prefered Contact Method</h5>
+
+                                                    <label for="pref-phone">Phone</label>
+                                                    <input type="radio" name="pref-contact" id="pref-phone" value="pref-phone">
+                                                                        
+                                                    <label for="pref-email">Email</label>
+                                                    <input type="radio" name="pref-contact" id="pref-email" value="pref-email">
+                                                                            
+                                                    <label for="pref-both">Both</label>
+                                                    <input type="radio" name="pref-contact" id="pref-both" value="pref-both">
+                                            </div>    
+                                            
+                                            <div>   
+                                                <h5>Reason for Contact<small>(Selected all the apply)</small></h5>
+                                            </div>
+                                            <div>    
+                                                    <input type="checkbox" name="options" id="option1" value="option1" required>
+                                                    <label for="option1">Quote for Option 1</label>
+
+                                                    <input type="checkbox" name="options" id="option2" value="option2"  required>
+                                                    <label for="option2">Quote for Option 2</label>
+
+                                                    <input type="checkbox" name="options" id="contact"  value="contact" required>
+                                                    <label for="contact">To discuss an on going quotation</label>
+                                            </div>
+
+                                            <div>  
+                                                <textarea name="question" rows="10" cols="30" placeholder="Please briefly outline any questions you may have"></textarea>
+
+                                            </div>
+                                            <div>
+                                                <input type="submit" value="Submit">
+                                            </div>
+
+                                        </form>
+                                    </div>    
+                                </div> 
+                        </div>               
                     </div>
                 </div>
             </div> 
         </div> 
-        <div class="request-form container">
-            <div class="form-header">
-                <form>
-
-                    <label for="fname">First Name :</label>
-                    <input type="text" name="fname" id="fname"  required>
-
-                    <label for="lname">Last Name :</label>
-                    <input type="text" name="lname" id="lname"  required>
-
-                    <label for="email">Email :</label>
-                    <input type="email" name="email" id="email" required>
-
-                    <label for="number">Number :</label>
-                    <input type="number" name="number" id="number"  required>
-
-                    <label for="pref-contact"><h4>Prefered Contact Method</h4></label>
-                        <input type="radio" name="pref-contact" id="phone">
-                        <label for="phone">Phone</label>
-                        
-                        <input type="radio" name="pref-contact" id="email">
-                        <label for="email">Email</label>
-                        
-                        <input type="radio" name="pref-contact" id="both">
-                        <label for="both">Both</label>
-
-                    <input type="submit" value="Submit">
-
-                </form>
-            </div>    
-        </div>    
+  
     </section>
 
     <footer>
@@ -84,15 +112,7 @@
             </div>
         </div>   
     </footer>         
-
     
-   
-    
-    
-    
-
-
-
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    

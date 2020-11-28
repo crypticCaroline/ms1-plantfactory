@@ -109,6 +109,41 @@ footer.row {
     padding-bottom: 0px;
 }
 
+/*..................................................................................................Form.......*/
+.container-pattern-form {
+        background-image:url(../images/plant-pattern.jpg);
+        background-size: cover;
+        height:1000px; 
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width:100%;
+       
+}        
+
+.request-form {
+    display: block;
+    border-width: 1px;
+    border-color: black;
+
+} 
+div h5 small {
+    font-style: italic;
+}
+
+.jumbotron-form {
+    background-color: rgb(235 235 235 / 0.2);
+    height: 75%;
+    width: 75%;
+    position: absolute; 
+    top: 12.5%;
+    left:12.5%; 
+
+}
+
+.fit-center .hero-text, h2, p {
+ padding-left:15px;
+ padding-right:15px;
+}
 
 @media(min-width: 728px) {
     .hero-image {
