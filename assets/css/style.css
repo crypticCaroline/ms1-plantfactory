@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500&display=swap');
+
+. {
+    font-family: 
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;   
+
 }
 
 
 /*...................................................................................................Colors.....*/
 .bg-color-nav {
-    background-color: #b1c2aa;
+    background-color: #fdfdfd;
 }
 
 .bg-color-benefits {
@@ -27,7 +33,11 @@ html, body {
 
 
 /*....................................................................................................Typography...*/
-
+ div {
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    font-size: 105%
+ }
 
 
 
@@ -113,7 +123,7 @@ footer.row {
 .container-pattern-form {
         background-image:url(../images/plant-pattern.jpg);
         background-size: cover;
-        height:1000px; 
+        height:1200px; 
         background-repeat: no-repeat;
         overflow: hidden;
         width:100%;
@@ -124,6 +134,7 @@ footer.row {
     display: block;
     border-width: 1px;
     border-color: black;
+    padding-top:2%;
 
 } 
 div h5 small {
@@ -140,10 +151,37 @@ div h5 small {
 
 }
 
+.form-header {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
 .fit-center .hero-text, h2, p {
  padding-left:15px;
  padding-right:15px;
 }
+
+
+
+.text-request {
+   padding-left:13%;
+   padding-right:13%;
+
+}
+.text-input {
+    
+    
+}
+
+.text-label {
+    
+}
+
+.pref-request {
+    
+}
+
 
 @media(min-width: 728px) {
     .hero-image {
@@ -181,5 +219,54 @@ div h5 small {
 
 
     }
+
+    .container-pattern-form {
+        background-image:url(../images/plant-pattern.jpg);
+        background-size: cover;
+        height:1000px; 
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width:100%;
+       
+}        
+
+    .request-form {
+        display: block;
+        border-width: 1px;
+        border-color: black;
+        padding-top: 2%;
+
+    } 
+    div h5 small {
+        font-style: italic;
+    }
+
+    .jumbotron-form {
+        background-color: rgb(235 235 235 / 0.2);
+        height: 75%;
+        width: 75%;
+        position: absolute; 
+        top: 12.5%;
+        left:12.5%; 
+
+    }
+
+    .fit-center .hero-text, h2, p {
+    padding-left:15px;
+    padding-right:15px;
+    }
+
+
+    .text-request {
+    padding-left:13%;
+    padding-right:13%;
+
+    }
+
+    .text-label {
+        text-align: right;
+    }
+
+    
 
 }
