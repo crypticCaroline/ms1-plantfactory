@@ -93,7 +93,7 @@ nav a:hover {
 .button-style:hover {
     background-color:#0b720b;
 }
-/*....................................................................................................Hero Image....*/
+/*....................................................................................................Hero Image/ Carousel....*/
 .hero-image {
     background:url("../images/hero-plant.jpg");
     height:400px;
@@ -102,8 +102,7 @@ nav a:hover {
     background-position: left;
     background-repeat: no-repeat;
     overflow: hidden;
-   
-   
+  
 }
 
 
@@ -113,7 +112,7 @@ div .jumbotron {
     background-size:cover;
     height:400px;
     width: 100%;
-}
+    }
 
 
 #hero-text-heading {
@@ -132,6 +131,19 @@ div .jumbotron {
     
 }
 
+.carousel-item {
+    height:min-content;
+    
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color:#0b720b;
+    font-weight: 500;
+    
+
+}
+
+   
 
 /*..............................................................................................................Body */
 .container-pattern {
