@@ -24,7 +24,7 @@ html, body {
 }
 
 #bg-color-footer {
-    background-color:	#607e60 
+    background-color:	#0b720b 
    
 }
 
@@ -42,9 +42,53 @@ html, body {
 /*....................................................................................................Header...*/
 nav {
     max-height: 36px;
+    margin-bottom:10px;
 }
 
+.logo {
+    font-size:2rem;
+    letter-spacing:3px;
+    text-decoration: none;
+}
 
+.logo a {
+    color:#0b720b;
+    text-align: left;
+    padding-left:3px;
+}
+
+nav a {
+    color:#0b720b;
+    letter-spacing: 1px;
+}
+
+.logo a:hover {
+    color:rgb(90, 59, 59);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:rgb(90, 59, 59);
+    text-decoration: none;
+}
+.active {
+    color: rgb(19, 46, 31);
+    text-transform: uppercase;
+}
+
+.nav-bar-container{
+    text-align: right;
+
+}
+.nav-bar-item {
+    padding:6px;
+}
+
+nav button{
+    border:2px none #0b720b;
+    border-radius:5px;
+    background-color: rgba(104, 72, 72, 0.1)
+}
 /*....................................................................................................Hero Image....*/
 .hero-image {
     background:url("../images/hero-plant.jpg");
@@ -55,17 +99,9 @@ nav {
     background-repeat: no-repeat;
     overflow: hidden;
    
+   
 }
 
-.hero-image-how {
-    background:url("../images/how-it.jpg");
-    height:230px;
-    width:100%;
-    background-size:cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}    
 
 div .jumbotron {
     background-color: rgb(235 235 235 / 0.05);
@@ -171,17 +207,9 @@ div h5 small {
    padding-right:13%;
 
 }
-.text-input {
-    
-    
-}
 
-.text-label {
-    
-}
-
-.pref-request {
-    
+form h5 {
+    font-size: 1.5rem;
 }
 
 textarea {
@@ -246,16 +274,7 @@ footer.row {
         overflow: hidden;
     }
 
-    .hero-image-how {
-        background:url("../images/how-it.jpg");
-        height:500px;
-        width:100%;
-        background-size:cover;
-        background-position: left;
-        background-repeat: no-repeat;
-        overflow: hidden;
-    }
-
+    
     .container-pattern {
         background-image:url(../images/plant-pattern.jpg);
         background-size: cover;
