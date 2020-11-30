@@ -13,7 +13,7 @@ html, body {
 }
 
 .bg-color-benefits {
-    background-color: #b1c2aa;
+    background-color: #0b720b;
 
 }
 
@@ -181,6 +181,10 @@ div .jumbotron {
     text-align: center;
     font-size:1rem;
 
+}
+
+.benefits-text {
+    color:#fafafa;
 }
 /*..................................................................................................Form.......*/
 .container-pattern-form {

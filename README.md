@@ -96,6 +96,7 @@ GitHub Repo
 
 ### Code :
     •	Bootstrap library was used to create a responsive design.
+    Caroursel taken directly from bootstrap - altered to fit needs 
 ### Content :
     •	Code : Rebecca Kelsall ---- and ()
 
