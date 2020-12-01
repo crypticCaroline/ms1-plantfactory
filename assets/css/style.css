@@ -58,18 +58,18 @@ nav {
     padding-left:3px;
 }
 
-nav a {
+nav a   {
     color:#0b720b;
     letter-spacing: 1px;
 }
 
 .logo a:hover {
-    color:rgb(90, 59, 59);
+    color:rgb(133, 44, 44);
     text-decoration: none;
 }
 
 nav a:hover {
-    color:rgb(90, 59, 59);
+    color:rgb(133, 44, 44);
     text-decoration: none;
 }
 .active {
@@ -188,8 +188,18 @@ div .row {
 
 }
 
-.benefits-text {
+.benefits-text { 
     color:#fafafa;
+}
+
+.link-hover {
+    text-decoration: none;
+    color: #f5f5cf;
+}
+
+.link-hover:hover {
+    color: rgb(133, 44, 44);
+    text-decoration: none;
 }
 
 .content-heading {

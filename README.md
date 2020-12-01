@@ -50,7 +50,7 @@ GitHub Repo
 
     ### Color -https://mycolor.space/?hex=%232BE67F&sub=1
     ### Typography 
-    ### Layout -  wire frames 
+    ### Layout -  wire frames  - issue due to typo corrected using dev tools 
     ### Imagry -  should the hero or pattern image fail there is a background color set
     ### Mock UPs
 
