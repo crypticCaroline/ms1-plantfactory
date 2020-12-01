@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Caveat:wght@400;500&display=swap');
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;   
+    overflow-x: hidden;
+    margin:0.25px   
 
 }
 
@@ -146,6 +147,10 @@ div .jumbotron {
    
 
 /*..............................................................................................................Body */
+div .row {
+    margin-left:0px;
+    margin-right:0px
+}
 .container-pattern {
         background-image:url(../images/plant-pattern.jpg);
         background-size: cover;
@@ -155,9 +160,9 @@ div .jumbotron {
         width:100%;
    
 }
-    .container-first {
-        height: min-content;
-        width:100%;
+.container-first {
+    height: min-content;
+    width:100%;
 
 
 }
@@ -176,7 +181,7 @@ div .jumbotron {
 
 .body-content {
     margin: 10px;
-    padding: 30px 5px;
+    padding: 10px 5px 20px 5px;
     letter-spacing:0.5px;
     text-align: center;
     font-size:1rem;
@@ -186,6 +191,51 @@ div .jumbotron {
 .benefits-text {
     color:#fafafa;
 }
+
+.content-heading {
+    font-size:2.5rem;
+    font-weight:600;
+    padding-top:20px;
+    letter-spacing:2px;
+    
+
+}
+
+.col-sm-4 {
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.testimonal-text p {
+    color: #0b720b;
+    padding:20px 5px 10px 20px;
+    font-size: 0.7rem;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    
+}
+
+.right-text p {
+    padding: 20px 0px 10px 10px;
+}
+
+
+img.testimonal-images {
+    height:115px;
+    width:115px;
+    border-radius:50%;
+    background-size:contain;
+}
+.col-5.right-image {
+    padding-right:15px;
+    padding-left:8px;
+    text-align:right;
+
+}
+
+.row.testimonal-text {
+    margin-bottom:100px;
+}
+
 /*..................................................................................................Form.......*/
 .container-pattern-form {
         background-image:url(../images/plant-pattern.jpg);
@@ -336,6 +386,25 @@ footer.row {
 
     }
 
+    div.col-sm-4 {
+        padding:0px;
+        
+    }
+    
+    div.col-4 {
+        padding-left: 17px;
+    }
+    div.col-8 {
+        padding-right: 0px;
+    }
+
+    .testimonal-text p {
+        padding: 10px 0px 10px 30px;
+        margin: 1px;
+    }    
+       
+    
+
     .container-pattern-form {
         background-image:url(../images/plant-pattern.jpg);
         background-size: cover;
@@ -388,5 +457,27 @@ footer.row {
     }
 
     
+
+}
+
+@media(min-width: 1024px) {
+
+    div.col-sm-4 {
+        padding:0px;
+        
+    }
+    
+    div.col-4 {
+        padding-left: 17px;
+    }
+    div.col-8 {
+        padding-right: 0px;
+    }
+
+    .testimonal-text p {
+        padding: 10px 10px;
+        margin: 1px;
+        font-size:1rem;
+    }    
 
 }
