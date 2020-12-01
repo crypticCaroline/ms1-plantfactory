@@ -237,13 +237,15 @@ img.testimonal-images {
 }
 
 /*..................................................................................................Form.......*/
-.container-pattern-form {
-        background-image:url(../images/plant-pattern.jpg);
-        background-size: cover;
-        height:1200px; 
-        background-repeat: no-repeat;
-        overflow: hidden;
-        width:100%;
+.row.container-pattern-form {
+       
+    background-image:url(../images/plant-pattern.jpg);
+    background-size: cover;
+    height:1200px; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;
+    margin:0px;
        
 }        
 
@@ -251,7 +253,7 @@ img.testimonal-images {
     display: block;
     border-width: 1px;
     border-color: black;
-    padding-top:2%;
+    padding-top:5%;
     padding-bottom: 2%;
 
 } 
@@ -260,33 +262,34 @@ div h5 small {
 }
 
 .jumbotron-form {
-    background-color: rgb(235 235 235 / 0.2);
+    background-color: rgb(235 235 235 / 0.5);
     height: min-content;
     width: 75%;
     position: absolute; 
     top: 12.5%;
-    left:12.5%; 
+    left:12.5%;
+    border-radius:2% 
 
 }
-
-.form-header {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
 
 .fit-center .hero-text, h2 {
  padding-left:15px;
  padding-right:15px;
 }
-
-
+.form-header {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
 
 .text-request {
-   padding-left:25%;
-   padding-right:13%;
+   padding-left:10%;
+   padding-right:10%;
 
 }
+
+
 
 form h5 {
     font-size: 1.5rem;
@@ -370,14 +373,7 @@ footer.row {
     }
     
     
-    .container-pattern {
-        background-image:url(../images/plant-pattern.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        width: 100%;
-   
-    }
+    
 
     .body-content {
     padding: 50px 20px;
@@ -403,14 +399,16 @@ footer.row {
         margin: 1px;
     }    
        
-    
-
-    .container-pattern-form {
+    .container-pattern {
         background-image:url(../images/plant-pattern.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
-        width:100%;
+        width: 100%;
+   
+    }
+
+    .container-pattern-form {
         height: 1000px;
     }        
 
@@ -427,12 +425,10 @@ footer.row {
     }
 
     .jumbotron-form {
-        background-color: rgb(235 235 235 / 0.2);
-        height: 75%;
-        width: 75%;
-        position: absolute; 
-        top: 12.5%;
-        left:12.5%; 
+        
+        position: absolute;
+        width: 50%;
+        left:25%;
 
     }
 
@@ -441,12 +437,6 @@ footer.row {
     padding-right:15px;
     }
 
-
-    .text-request {
-    padding-left:25%;
-    padding-right:13%;
-
-    }
 
     .text-label {
         text-align: right;
