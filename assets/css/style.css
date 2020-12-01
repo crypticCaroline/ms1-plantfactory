@@ -14,7 +14,7 @@ html, body {
 }
 
 .bg-color-benefits {
-    background-color: #0b720b;
+    background-color: #fafafa;
 
 }
 
@@ -164,6 +164,7 @@ div .row {
         background-repeat: no-repeat;
         overflow: hidden;
         width:100%;
+        
    
 }
 .container-first {
@@ -171,6 +172,14 @@ div .row {
     width:100%;
 
 
+}
+
+.contrast-back {
+    background-color: rgba(255, 255, 255, 0.6);
+    width:inherit;
+    height: initial;
+    margin:0px;
+    padding:0px;
 }
 
 /* overwrites bootstraps .container-fluid class*/
@@ -182,31 +191,65 @@ div .row {
     margin-left: auto;
 }
 
+.head-line {
+    background-color:#0b720b;
+    height:2px;
+    width:20%;
 
+}
 
 
 .body-content {
     margin: 10px;
-    padding: 10px 5px 20px 5px;
+    padding: 10px 5px 10px 5px;
     letter-spacing:0.5px;
     text-align: center;
     font-size:1rem;
 
 }
 
-.benefits-text { 
-    color:#fafafa;
+div .benefits-text h3, h5 {
+    color:#0b720b;
+    font-weight:400;
+    letter-spacing: 2px;
+
+
+}
+
+div .benefits-text h5 {
+    padding:0px;
+}
+
+div .benefits-text p { 
+    color:#0b720b;
+    padding:0px 10px;
+    font-weight:300;
+    letter-spacing: 1px;
 }
 
 .link-hover {
     text-decoration: none;
-    color: #f5f5cf;
+    color: #119e11;;
 }
 
 .link-hover:hover {
     color: rgb(133, 44, 44);
     text-decoration: none;
 }
+
+div .offer-text h3, h5 {
+    color:#180b0b;
+    font-weight:400;
+    letter-spacing: 2px;
+}    
+
+div .offer-text p { 
+    color:#180b0b;
+    padding:0px 10px;
+    font-weight:300;
+    letter-spacing: 1px;
+
+}    
 
 
 .content-heading {
@@ -391,10 +434,8 @@ footer.row {
     
 
     .body-content {
-    padding: 50px 20px;
-    letter-spacing:0.5px;
-
-
+    padding: 10px;
+    
     }
 
     div.col-sm-4 {
