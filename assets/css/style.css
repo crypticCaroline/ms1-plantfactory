@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Caveat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;1,400&display=swap');
 
 html, body {
     max-width: 100%;
@@ -137,10 +137,16 @@ div .jumbotron {
     
 }
 
-.carousel-caption h5, .carousel-caption p{
-    color:#0b720b;
+
+
+.carousel-caption h5, .carousel-caption p {
+    color:#372210;
     font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     
+    
+
 
 }
 
@@ -202,13 +208,12 @@ div .row {
     text-decoration: none;
 }
 
+
 .content-heading {
     font-size:2.5rem;
     font-weight:600;
     padding-top:20px;
     letter-spacing:2px;
-    
-
 }
 
 .col-sm-4 {
@@ -218,9 +223,9 @@ div .row {
 .testimonal-text p {
     color: #0b720b;
     padding:20px 5px 10px 20px;
-    font-size: 0.7rem;
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
+    font-size: 0.5rem;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
     
 }
 
@@ -230,8 +235,8 @@ div .row {
 
 
 img.testimonal-images {
-    height:115px;
-    width:115px;
+    height:110px;
+    width:110px;
     border-radius:50%;
     background-size:contain;
 }
