@@ -98,6 +98,8 @@ nav a:hover {
 
 .button-style:hover {
     color: #151811;
+    background-color:#0b720b;
+    text-decoration:none;
 }
 /*....................................................................................................Hero Image/ Carousel....*/
 .hero-image {
@@ -306,34 +308,20 @@ div .offer-text p {
 
 }    
 
-#button-request {
-    margin-bottom: 30px;
-    display: inline-block;
-    text-align: center;
-
-}
-#button-request a {
+.big-button {
+    color: #fafafa;
+    padding: 1rem 2.4rem;
     text-decoration: none;
-    color: #0b720b;
-    
+    background-color:#0b720b;
+    border-color:#0b720b;
+    border: 0.05rem solid;
 
-    
 }
 
-#button-request {
-    margin-bottom: 40px;
-    transition:  1s ease-in;
-    border:2px none;
-    border-radius:5px;
-    
-}    
-
-#button-request :hover {
-    text-decoration: none;
-    color:#1b2010;  
-    
+.big-button:hover {
+    background-color: #fafafa;
+    color:#0b720b;
 }
-
 .col-sm-4 {
     padding-top:20px;
     padding-bottom:10px;
@@ -365,7 +353,7 @@ img.testimonal-images:hover {
     transform:scale(1.25);
 }
 
-.col-5.right-image {
+.col-5.image {
     padding-right:15px;
     padding-left:8px;
     text-align:right;
