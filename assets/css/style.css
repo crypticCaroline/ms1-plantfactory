@@ -14,7 +14,7 @@ html, body {
 }
 
 .bg-color-benefits {
-    background-color: #fafafa;
+    background-color: #fefefe;
 
 }
 
@@ -157,21 +157,30 @@ div .row {
     margin-left:0px;
     margin-right:0px
 }
+
+
 .container-pattern {
     background-image:url(../images/plant-pattern.jpg);
     background-size: cover;
     height:min-content; 
     background-repeat: no-repeat;
     overflow: hidden;
-    width:100%;        
+    width:100%;
+    padding-top: 40px;
+    padding-bottom:40px;        
 }
 
 
-.container-first {
+.container-benefits {
     height: min-content;
     width:100%;
+    padding-top: 40px;
+    padding-bottom:40px;
 
 }
+
+
+
 
 .contrast-back {
     background-color: rgba(255, 255, 255, 0.6);
@@ -213,6 +222,7 @@ div .row {
     color:#0c310c;
     font-weight:400;
     letter-spacing: 1px;
+    
 }
 
 img.about-img{
@@ -220,7 +230,33 @@ img.about-img{
     height: auto;
     background-size: contain;
     border-radius: 2%;
+    transition:1s ease-in-out;
+    
+}  
+
+img.about-img:hover {
+    transform:scale(1.03);
 }
+
+.content-heading {
+    font-size:2.5rem;
+    font-weight:600;
+    padding-top:20px;
+    letter-spacing:2px;
+}
+
+.sub-heading {
+    color: #2a2020;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2.5px;
+    margin-bottom: 17px;
+}  
+
+.sub-heading-green {
+    color:#0b720b;
+}
+
 
 div .benefits-text h3, h5 {
     color:#0b720b;
@@ -236,7 +272,7 @@ div .benefits-text h5 {
 
 div .benefits-text p { 
     color:#0b720b;
-    padding:0px 10px;
+    padding:5px 5px;
     font-weight:400;
     letter-spacing: 1px;
 }
@@ -252,26 +288,18 @@ div .benefits-text p {
 }
 
 div .offer-text h3, h5 {
-    color:#180b0b;
+    color:#0c0606;
     font-weight:400;
     letter-spacing: 2px;
 }    
 
 div .offer-text p { 
-    color:#180b0b;
-    padding:0px 10px;
-    font-weight:400;
+    color:#0c0606;
+    padding:5px 5px;
+    font-weight:500;
     letter-spacing: 1px;
 
 }    
-
-
-.content-heading {
-    font-size:2.5rem;
-    font-weight:600;
-    padding-top:20px;
-    letter-spacing:2px;
-}
 
 .col-sm-4 {
     padding-top:20px;
@@ -296,7 +324,14 @@ img.testimonal-images {
     width:110px;
     border-radius:50%;
     background-size:contain;
+    transition: 0.5s;
+    
 }
+
+img.testimonal-images:hover {
+    transform:scale(1.25);
+}
+
 .col-5.right-image {
     padding-right:15px;
     padding-left:8px;
@@ -469,19 +504,32 @@ footer.row {
     .testimonal-text p {
         padding: 10px 0px 10px 30px;
         margin: 1px;
-    }    
+    }   
+
+
+    .about {
+        position: relative;
+    } 
+
+    .container-about {
+        position:absolute;
+        top:50%;
+    }
        
+    .container-benefits {
+        padding-top:80px;
+        padding-bottom:80px;
+
+    }
+
     .container-pattern {
-        background-image:url(../images/plant-pattern.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        width: 100%;
-   
+        padding-top:80px;
+        padding-bottom:80px;
     }
 
     .container-pattern-form {
-        height: 1000px;
+        padding-top:40px;
+        padding-bottom:40px;
     }        
 
     .request-form {
@@ -527,6 +575,22 @@ footer.row {
     div.col-sm-4 {
         padding:0px;
         
+    }
+
+    .container-about {
+        padding-top:90px;
+        font-size:1.5rem;
+    }
+    .about-img-container {
+        padding-top:80px;
+    }
+
+    .head-line{
+        margin-top: 40px;
+    }
+
+    .about-sub-heading {
+        padding-top: 40px;
     }
     
     div.col-4 {
