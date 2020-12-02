@@ -158,6 +158,9 @@ div .jumbotron {
     
 }
 
+.carousel.pointer-event {
+    padding:0px;
+}
 
 
 .carousel-caption h5, .carousel-caption p {
@@ -166,12 +169,7 @@ div .jumbotron {
     font-size: 1.5rem;
     letter-spacing: 1px;
     
-    
-
-
-}
-
-   
+}      
 
 /*..............................................................................................................Body */
 
@@ -332,8 +330,8 @@ div .offer-text p {
 }
 .testimonal-text p {
     color: #0b720b;
-    padding:20px 5px 10px 20px;
-    font-size: 0.5rem;
+    padding:50px 5px 10px 20px;
+    font-size: 1rem;
     font-family: 'Comic Neue', cursive;
     font-weight: 400;
     
@@ -343,13 +341,18 @@ div .offer-text p {
     padding: 20px 0px 10px 10px;
 }
 
-
+.img-container {
+    max-height:100vh;
+    max-width:100vh;
+}
 img.testimonal-images {
-    height:110px;
-    width:110px;
+    max-width:100%;
+    height:auto;
     border-radius:50%;
     background-size:contain;
     transition: 0.5s;
+    margin-top:10px;
+    margin-bottom:20px;
     
 }
 
@@ -530,12 +533,7 @@ footer.row {
         padding-right: 0px;
     }
 
-    .testimonal-text p {
-        padding: 10px 0px 10px 30px;
-        margin: 1px;
-    }   
-
-
+    
     .about {
         position: relative;
     } 
@@ -632,7 +630,7 @@ footer.row {
     .testimonal-text p {
         padding: 10px 10px;
         margin: 1px;
-        font-size:1rem;
+        font-size:2rem;
     }    
 
     
