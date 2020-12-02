@@ -3,10 +3,14 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    margin:0.25px   
+    margin:0.25px;   
 
 }
 
+.row {
+    margin-right:0;
+    margin-left:0;
+}
 
 /*...................................................................................................Colors.....*/
 .bg-color-nav {
@@ -42,13 +46,14 @@ html, body {
 
 /*....................................................................................................Header...*/
 nav {
-    max-height: 36px;
-    margin-bottom:10px;
+    min-height: 36px;
+    max-height: min-content;
+    
 }
 
 .logo {
-    font-size:2rem;
-    letter-spacing:3px;
+    font-size:1.50rem;
+    letter-spacing:1.5px;
     text-decoration: none;
 }
 

@@ -88,6 +88,8 @@ Navigation collapse for mobile
     CSS Validator
 ### Usability Testing
     Friends /slack 
+
+    issue with landscape testimonal - fix 
 ### Browser Compatibility
     Tested on Chrome, Firefox, Brave,  Internet Explorer, Microsoft Edge, Safari.
 ### OS Compatibility
