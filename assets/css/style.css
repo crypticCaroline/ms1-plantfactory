@@ -158,19 +158,18 @@ div .row {
     margin-right:0px
 }
 .container-pattern {
-        background-image:url(../images/plant-pattern.jpg);
-        background-size: cover;
-        height:min-content; 
-        background-repeat: no-repeat;
-        overflow: hidden;
-        width:100%;
-        
-   
+    background-image:url(../images/plant-pattern.jpg);
+    background-size: cover;
+    height:min-content; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;        
 }
+
+
 .container-first {
     height: min-content;
     width:100%;
-
 
 }
 
@@ -208,6 +207,21 @@ div .row {
 
 }
 
+.about {
+    padding:2px;
+    height: min-content;
+    color:#0c310c;
+    font-weight:400;
+    letter-spacing: 1px;
+}
+
+img.about-img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border-radius: 2%;
+}
+
 div .benefits-text h3, h5 {
     color:#0b720b;
     font-weight:400;
@@ -223,7 +237,7 @@ div .benefits-text h5 {
 div .benefits-text p { 
     color:#0b720b;
     padding:0px 10px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing: 1px;
 }
 
@@ -246,7 +260,7 @@ div .offer-text h3, h5 {
 div .offer-text p { 
     color:#180b0b;
     padding:0px 10px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing: 1px;
 
 }    
@@ -437,6 +451,8 @@ footer.row {
     padding: 10px;
     
     }
+
+       
 
     div.col-sm-4 {
         padding:0px;
