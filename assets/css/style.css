@@ -92,8 +92,7 @@ nav a:hover {
 }
 
 .button-style:hover {
-    background-color:#519c51;
-    color: #c8e297;
+    color: #151811;
 }
 /*....................................................................................................Hero Image/ Carousel....*/
 .hero-image {
@@ -318,15 +317,15 @@ div .offer-text p {
 
 #button-request {
     margin-bottom: 40px;
-    transition: 1s ease-in;
+    transition:  1s ease-in;
     border:2px none;
     border-radius:5px;
+    
 }    
 
 #button-request :hover {
     text-decoration: none;
-    color:#1b2010;
-    
+    color:#1b2010;  
     
 }
 
@@ -434,6 +433,10 @@ form h5 {
 textarea {
     width:80%;
     height:70px;
+}
+
+.form-button:hover {
+    color:rgb(43, 63, 47)
 }
 
 footer {
