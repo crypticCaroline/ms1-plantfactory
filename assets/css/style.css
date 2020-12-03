@@ -35,7 +35,7 @@ html, body {
 }
 
 #bg-color-footer {
-    background-color:rgba(11,114,11,0.6);
+    background-color:rgba(11,114,11,0.66);
     
    
 }
@@ -310,7 +310,7 @@ div .benefits-text h3, h5 {
 
 }
 
-div .benefits-text h5 {
+div .benefits-text h4 {
     padding:0px;
 }
 
@@ -331,7 +331,7 @@ div .benefits-text p {
     text-decoration: none;
 }
 
-div .offer-text h3, h5 {
+div .offer-text h3, h4 {
     color:#0c0606;
     font-weight:400;
     letter-spacing: 2px;
