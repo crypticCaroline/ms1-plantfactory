@@ -45,7 +45,9 @@ html, body {
  div {
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
-    font-size: 105%
+    font-size: 105%;
+    
+
  }
 
 
@@ -376,9 +378,9 @@ footer .mid-button:hover {
     color: var(--off-white);
 
 }    
-.col-sm-4 {
+/*.col-sm-4 {
     padding-top:20px;
-    padding-bottom:10px;
+    padding-bottom:10px; */
 }
 .testimonal-text p {
     color: var(--main-green);
@@ -424,15 +426,16 @@ img.testimonal-images:hover {
 }
 
 /*..................................................................................................Form.......*/
-.row.container-pattern-form {
+.container-pattern-form {
        
     background-image:url(../images/plant-pattern.jpg);
     background-size: cover;
-    height:1200px; 
+    height:1900px; 
     background-repeat: no-repeat;
     overflow: hidden;
     width:100%;
     margin:0px;
+    
        
 }        
 
@@ -453,9 +456,10 @@ div h5 small {
     height: min-content;
     width: 75%;
     position: absolute; 
-    top: 12.5%;
+    top: 10%;
     left:12.5%;
-    border-radius:2% 
+    border-radius:2%;
+    bottom:10%;
 
 }
 
@@ -476,16 +480,30 @@ div h5 small {
 
 }
 
+.pref-contact-text {
+
+    padding:10px;
+
+}
+
+h5 .pref-contact-text {
+    padding-top:10px;
+}
+
 
 
 form h5 {
     font-size: 1.5rem;
 }
 
-textarea {
-    width:80%;
-    height:70px;
+label {
+    padding-right:5px;
+    
 }
+
+textarea {
+    width:100%;
+}   
 
 .form-button:hover {
     color:rgb(43, 63, 47)
@@ -674,7 +692,7 @@ footer.row {
     }
 
     textarea {
-        width: 50%;
+        width: 90%;
     }
 
     
@@ -744,7 +762,7 @@ footer.row {
 }
 
 @media (min-width: 2000px) {
-.row.container-pattern-form {
+.container-pattern-form {
     min-height: 100vh;
 }
 }
