@@ -16,6 +16,8 @@ html, body {
 :root {
     --main-green:#0b720b;
     --off-white:#fdfdfd;
+    --dk-brown:#0c0606;
+    --md-brown: #2a2020;
     
 }
 
@@ -107,7 +109,7 @@ nav a  {
 }
 
 nav a:hover {
-    color:black;
+    color:var (--md-brown);
     text-decoration: none;
     background-color:#0b720b85;
     border-radius: 2px;
@@ -183,27 +185,39 @@ div .jumbotron {
 
 .carousel-item {
     height:min-content;
+    position:relative;
     
 }
+
+.carousel-item:after {
+    display:block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    content:"";
+    background-color:#fdfdfd49;
+}
+
+
 
 .carousel.pointer-event {
     padding:0px;
 }
 
-.carousel-inner {
-    height:100%;
-}
-
 
 .carousel-caption h5, .carousel-caption p {
-    color:#372210;
+    color:var(--md-brown);
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
-    padding-bottom:7%;
-    
-    
+          
 }      
+
+.carousel-caption p {
+    padding-bottom:3%;
+}
 
 /*..............................................................................................................Body */
 
@@ -237,7 +251,7 @@ div .jumbotron {
     width:inherit;
     height: initial;
     margin:0px;
-    padding:30px;
+    padding:3%;
 }
 
 
@@ -262,7 +276,7 @@ div .jumbotron {
 .about {
     padding:2px;
     height: min-content;
-    color:#0c310c;
+    color: var(--md-brown);
     font-weight:400;
     letter-spacing: 1px;
     font-size:1.4rem;
@@ -292,7 +306,7 @@ img.about-img:hover {
 }
 
 .sub-heading {
-    color: #2a2020;
+    color: var(--md-brown);
     font-weight: 700;
     font-size: 1.6rem;
     letter-spacing: 2.5px;
@@ -318,14 +332,14 @@ div .benefits-text h4 {
 
 div .benefits-text p { 
     color:var(--main-green);
-    padding:5px 5px;
+    padding:25px 5px;
     font-weight:400;
     letter-spacing: 1px;
 }
 
 .link-study {
     text-decoration: none;
-    color: #0c0606;
+    color: var(--dk-brown);
 }
 
 .link-study:hover {
@@ -334,13 +348,13 @@ div .benefits-text p {
 }
 
 div .offer-text h3, h4 {
-    color:#0c0606;
+    color:var(--dk-brown);
     font-weight:400;
     letter-spacing: 2px;
 }    
 
 div .offer-text p { 
-    color:#0c0606;
+    color:var(--dk-brown);
     padding:5px 5px;
     font-weight:500;
     letter-spacing: 1px;
@@ -378,10 +392,7 @@ footer .mid-button:hover {
     color: var(--off-white);
 
 }    
-/*.col-sm-4 {
-    padding-top:20px;
-    padding-bottom:10px; */
-}
+
 .testimonal-text p {
     color: var(--main-green);
     padding:50px 5px 10px 20px;
@@ -425,12 +436,14 @@ img.testimonal-images:hover {
     margin-bottom:100px;
 }
 
+
+
 /*..................................................................................................Form.......*/
 .container-pattern-form {
        
     background-image:url(../images/plant-pattern.jpg);
     background-size: cover;
-    height:1900px; 
+    height:1800px; 
     background-repeat: no-repeat;
     overflow: hidden;
     width:100%;
@@ -442,7 +455,7 @@ img.testimonal-images:hover {
 .request-form {
     display: block;
     border-width: 1px;
-    border-color: black;
+    border-color: var(--dk-brown);
     padding-top:5%;
     padding-bottom: 2%;
 
@@ -456,7 +469,7 @@ div h5 small {
     height: min-content;
     width: 75%;
     position: absolute; 
-    top: 10%;
+    top: 5%;
     left:12.5%;
     border-radius:2%;
     bottom:10%;
@@ -607,25 +620,22 @@ footer.row {
     }
 
     #hero-text-sub {
-    text-align:left;
-    padding-right: 1.5rem;
-    padding-left:1.5rem;
-    font-size:2rem;
-
+        text-align:left;
+        padding-right: 1.5rem;
+        padding-left:1.5rem;
+        font-size:2rem;
     }
     
    
 
     .body-content {
-    padding: 50px;
-    
+        padding: 50px;    
     }
 
        
 
     div.col-sm-4 {
-        padding:0px;
-        
+        padding:0px;        
     }
     
     div.col-4 {
@@ -648,12 +658,21 @@ footer.row {
     .container-benefits {
         padding-top:20px;
         padding-bottom:20px;
-
     }
 
     .container-pattern {
         padding-top:80px;
         padding-bottom:80px;
+    }
+
+    .carousel-caption h5, .carousel-caption p {    
+    font-size: 3rem;
+    padding-bottom:2%;   
+          
+    }      
+
+    .carousel-caption p {
+        padding-bottom:15%;
     }
 
     .container-pattern-form {
@@ -666,24 +685,22 @@ footer.row {
         border-width: 1px;
         border-color: black;
         padding-top: 2%;
-
     } 
     
     div h5 small {
         font-style: italic;
     }
 
-    .jumbotron-form {
-        
+    .jumbotron-form {        
         position: absolute;
-        width: 50%;
-        left:25%;
-
+        width: 70%;
+        top:12.5%;
+        left:15%;
     }
 
     .fit-center .hero-text, h2, p {
-    padding-left:15px;
-    padding-right:15px;
+        padding-left:15px;
+        padding-right:15px;
     }
 
 
@@ -693,32 +710,27 @@ footer.row {
 
     textarea {
         width: 90%;
-    }
-
-    
-
+    }  
 }
 
 @media(min-width: 1024px) {
 
     .nav-bar-item {
-    padding-right:13px;
-    padding-left:13px;
-    font-size: 1.75rem;
-    text-align: right;
+        padding-right:13px;
+        padding-left:13px;
+        font-size: 1.75rem;
+        text-align: right;
     }
     
     .logo {
         font-size:2.5rem;
     }
     div.col-sm-4 {
-        padding:0px;
-        
+        padding:0px;        
     }
 
     .container-about {
-        padding-top:90px;
-        
+        padding-top:90px;        
     }
     .about-img-container {
         padding-top:80px;
@@ -743,26 +755,27 @@ footer.row {
         padding: 10px 10px;
         margin: 1px;
         font-size:2rem;
-    }    
-
-    
-    
+    }
 }
 
+    
 @media (min-width: 1200px) {
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1500px;
-}
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1500px;
+    }
 }
 
 @media (min-width: 1450px) {
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-fluid {
-    max-width: 1500px;
-}
+
+    .container-fluid {
+        max-width: 1500px;
+    }
 }
 
 @media (min-width: 2000px) {
-.container-pattern-form {
-    min-height: 100vh;
-}
+
+    .container-pattern-form {
+        min-height: 100vh;
+    }
 }

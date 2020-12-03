@@ -128,6 +128,23 @@ I used Bootstraps for the use of the grid system and for the carousel. I used ch
 
 ### Imagry   
 
+I sourced the images from Upslash I was looking for simple and eye catching designs that mirrored the website ideals.
+
+https://unsplash.com/photos/x2Tmfd1-SgA
+https://unsplash.com/photos/VWcPlbHglYc
+https://unsplash.com/photos/8FAEyjo3Dek
+https://unsplash.com/photos/Jnxtlv_Fo14
+https://unsplash.com/photos/HrpYHchKb5Y
+https://unsplash.com/photos/K86O7q3jddY
+
+Pattern background
+https://www.freepik.com/free-vector/mostera-background_4258347.htm#page=2&query=pattern+background+plant&position=46
+
+
+
+
+
+
 Should the hero or pattern image fail there is a background color set
 
 
