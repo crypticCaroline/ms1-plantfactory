@@ -81,14 +81,25 @@ This means if the buisness decides at any point to change the key colours they c
 ![Colour scheme](README-files/colors.png)
 
 For the rest of the colour scheme I have kept the range of colours to a minimum using only a few additional colours where needed.  I have used a mid brown and dark brown for some text.  This still ties in with the theme of nature but provides a better design. 
-Another reason I have chosen not to use black and white is because of it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for sufferers of visual stress to read.  
+Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for sufferers of visual stress to read.  
 
 I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image.  I had already decided to use green but hadnt decided on the exact shade. Although this was helpful in finding colours that worked well I chose to alter the palette to my choosing. 
 
 ### Typography 
 
+I have used https://fonts.google.com/ for my fonts.  I have chosen to use Yanone Kaffeesatz as my main font throughout the website.  This is a fairly modern looking style that is easy to read at various sizes.  To incerase it's readabilty I have increased the letter spacing in most cases.  
+For the use in the headers I have increased the letter spacing further to make the headings seem more defined and stand out. I have also used a varity of font weights to make some sections easier to read and stand out. 
 
+I have also used Comic Neue for the testimonies this is because the style is a little more playful and is a welcome change from the font used in the main body of the website. 
 
+### Call to Action
+
+I made all my call to actions as easy to see as possible. 
+
+* The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
+* Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
+* Submit link on the form and the Contact Us link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours are easy to see. 
+* The Request a Quote in the main body of index.html and the Contact us in the Footer also open up a new tab -  I have done this so that if the user if still reading something on the main page they won't loose their place on the page. 
 
 ### Layout -  wire frames  - issue due to typo corrected using dev tools 
 
@@ -100,7 +111,7 @@ I initially used https://mycolor.space/ to help me narrow down my design choice 
 
 ### Imagry -  should the hero or pattern image fail there is a background color set
 
-### Call to action
+
 
 
 ### Mock UP
