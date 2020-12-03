@@ -109,7 +109,7 @@ nav a  {
 }
 
 nav a:hover {
-    color:var (--md-brown);
+    color:var(--md-brown);
     text-decoration: none;
     background-color:#0b720b85;
     border-radius: 2px;
