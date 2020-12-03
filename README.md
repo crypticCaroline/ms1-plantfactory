@@ -79,6 +79,8 @@ I have used the following
     
 This means if the buisness decides at any point to change the key colours they can easily change it in the variable so that they don't need to go through and change every colour individually.     
 
+For the rest of the colour scheme I have kept the range of colours to a minimum using only a few additional colours where needed.  
+Another reason I have chosen not to use black and white is because of it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for suffers of visual stress to read.  
 
 ### Typography 
 ### Layout -  wire frames  - issue due to typo corrected using dev tools 
