@@ -371,7 +371,7 @@ div .offer-text p {
     margin:10px;
 }
 
-.mid-button:hover {
+footer .mid-button:hover {
     background-color: var(--main-green);
     color: var(--off-white);
 
