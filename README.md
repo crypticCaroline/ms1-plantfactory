@@ -37,6 +37,7 @@ GitHub Repo
 * A user who already has a quotation but wants to get in contact.
 * A user doing research on what we offer.
 * A user looking to see if we have done previous work.
+* A user showing the site to other people within their buisness.
 
 #### What a user may expect
 * Easy to navigate website 
@@ -100,16 +101,34 @@ I made all my call to actions as easy to see as possible.
 * Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
 * Submit link on the form and the Contact Us link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours are easy to see. 
 * The Request a Quote in the main body of index.html and the Contact us in the Footer also open up a new tab -  I have done this so that if the user if still reading something on the main page they won't loose their place on the page. 
+* The social links will send the user to the companys social media pages.  They also change colour when hovered over.
 
-### Layout -  wire frames  - issue due to typo corrected using dev tools 
+
+### Layout 
+
+#### Homepage Wire Frame 
+
+I have used responsive design when creating the website as the sight is expanded from a mobile first view point some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
+I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
+
 
 ![Homepage Wireframe](README-files/homepage.png)
 
+#### Testimonial Wireframe
+
 ![Testimonial Wireframe](README-files/testimonies.png)
+
+#### Form Wireframe 
 
 ![Form Wireframe](README-files/form.png)
 
-### Imagry -  should the hero or pattern image fail there is a background color set
+
+
+
+
+### Imagry   
+
+Should the hero or pattern image fail there is a background color set
 
 
 

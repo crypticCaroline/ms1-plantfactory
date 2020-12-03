@@ -326,8 +326,8 @@ div .benefits-text p {
     color: #0c0606;
 }
 
-.link-hover:hover {
-    color: #372210;
+.link-study:hover {
+    color: #617420;
     text-decoration: none;
 }
 
@@ -525,14 +525,14 @@ footer.row {
     padding-top: 20px;
 }
 
-.f-social {
+.f-social, .f-social a  {
     letter-spacing: 7px;
     color: var(--off-white);
     padding-bottom:20px;
 }
 
-.footer-style a {
-    color: var(--off-white);
+.footer-style .f-social a:hover {
+    color: var(--main-green);
     
 }
 
