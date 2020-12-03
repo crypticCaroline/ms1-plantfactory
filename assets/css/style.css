@@ -29,7 +29,7 @@ html, body {
 
 
 .bg-color-what {
-    background-color:#D5FADD;
+    background-color:#F1FDF4;
     
     
 }
@@ -327,7 +327,7 @@ div .benefits-text p {
 }
 
 .link-hover:hover {
-    color: rgb(133, 44, 44);
+    color: #372210;
     text-decoration: none;
 }
 

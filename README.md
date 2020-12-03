@@ -65,9 +65,9 @@ GitHub Repo
 
 ## Designs
 
-### Color -https://mycolor.space/?hex=%232BE67F&sub=1
+### Colour
 
-I have used rich green as my main colour theme for the website. #0b720b this has been paired with an offwhite colour #fdfdfd to ensure good contrast. This will help with Accessibility for visually impaired users. 
+I have used rich green as my main colour theme for the website. This has been paired with an offwhite colour to ensure good contrast. This will help with Accessibility for visually impaired users. 
 This goes with the theme of the website and the buisness.  The buisness moto is making offices greener.  
 These colour features several times througout the website which is why I have set a varible in the code.  
 I have used the following 
@@ -78,11 +78,18 @@ I have used the following
      }
     
 This means if the buisness decides at any point to change the key colours they can easily change it in the variable so that they don't need to go through and change every colour individually.     
+![Colour scheme](README-files/colors.png)
 
-For the rest of the colour scheme I have kept the range of colours to a minimum using only a few additional colours where needed.  
-Another reason I have chosen not to use black and white is because of it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for suffers of visual stress to read.  
+For the rest of the colour scheme I have kept the range of colours to a minimum using only a few additional colours where needed.  I have used a mid brown and dark brown for some text.  This still ties in with the theme of nature but provides a better design. 
+Another reason I have chosen not to use black and white is because of it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for sufferers of visual stress to read.  
+
+I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image.  I had already decided to use green but hadnt decided on the exact shade. Although this was helpful in finding colours that worked well I chose to alter the palette to my choosing. 
 
 ### Typography 
+
+
+
+
 ### Layout -  wire frames  - issue due to typo corrected using dev tools 
 
 ![Homepage Wireframe](README-files/homepage.png)
@@ -92,6 +99,10 @@ Another reason I have chosen not to use black and white is because of it is esti
 ![Form Wireframe](README-files/form.png)
 
 ### Imagry -  should the hero or pattern image fail there is a background color set
+
+### Call to action
+
+
 ### Mock UP
 
 
