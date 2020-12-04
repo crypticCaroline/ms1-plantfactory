@@ -135,9 +135,6 @@ I made all my call to actions as easy to see as possible.
 ![Form Wireframe](README-files/form.png)
 
 
-
-
-
 ### Imagery   
 
 Seeing as the buisness is a concept I had no images to use from the company. I looked for simple and eye catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
@@ -282,11 +279,11 @@ I tested on older version of Internet Explorer, the website works from Internet 
 I used [IE NetREnderer](https://netrenderer.com/index.php) to test the older versions. 
 
 ### OS Compatibility
-Tested on iOS , Android 10 and Windows 10.
-Tested for responsivness on Chrome DevTools.
+Tested on iOS , Android 10 and Windows 10. - Asked a friend with an IPhone that it was working.  
+Tested for responsivness using Chrome DevTools.
 
 ### Performance Testing
-Tested on Developer Tools Lighthouse.  This is the first time running through Lighthouse
+Tested on the Developer Tools Lighthouse.  This was the first time running through Lighthouse
 
 ![Lighthouse results](README-files/lighthouse-before.png)
 
@@ -295,8 +292,13 @@ I maded some changes, such as increasing contrast, adding meta data and making s
 ![Lighthouse results](README-files/lighthouse-after.png)
 
 ### Testing User Stories
-    go through each story what is wanted? 
 
+* ###### A user looking for office plants to add to the office or work space or buisness. - The user can find the correct quickly on the first page of the site that this is something that we offer, the user is given the option to get in contact and can have a look at testimonies and images of work carried out. 
+* ###### A user looking to install a plant feature. -The user can easily see that this is something we offer.  The user is given the option to get in contact and can have a look at testimonies and images of work carried out previously. 
+* ###### A user who already has a quotation but wants to get in contact. -  The user can find our contact details in the footer, this includes a phone number, address and email.  There is also a big button that the user can click to be taken to a seperate page to contact us. 
+* ###### A user doing research on what we offer. - The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open them can navigate between them easily. 
+* ###### A user looking to see if we have done previous work. - Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar. 
+* ###### A user showing the site to other people within their buisness. -  Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
 ## Deployment 
 
