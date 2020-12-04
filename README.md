@@ -16,8 +16,8 @@ GitHub Repo
  Plant Factory is a buisness concept created for my MS1 project with Code Institute.  
  Plant Factory is a buisness dedicated at bringing postive change to workplaces in the form of adding more natural elements. 
  The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
- Plant Factory offers both bespoke plant feature building and installant and potted plants/trees of a range of sizes for office place.  Plant factory will visit the buisness in order to asses the sizes needed and if bespoke will design and cater for individual requirements. 
- Plant Factory needed a website to help get new clients and also showcase some of their work.  Plant Factory needed to have contact form so that new and existing clients could reach them easily.   Plant Factory is currently a small company with a small range of website needs,  there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing buisness and additional features implamented. 
+ Plant Factory offers both bespoke plant feature building and installant and potted plants/trees of a range of sizes for office place.  Plant factory will visit the buisness in order to asses the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quanities/ larger plants suited to buisnesses. If  a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built in plant walls, islands with trees in the middle and hanging fixtures. 
+ Plant Factory would need to have a website to help get new clients and also showcase some of their current or existing work.  Plant Factory will need to have contact form so that new and existing clients could reach them easily.   Plant Factory is a small company with a small range of website needs,  there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing buisness and additional features implamented. 
 
 
 ## Index – Table of Contents
@@ -118,11 +118,12 @@ I made all my call to actions as easy to see as possible.
 
 ### Layout 
 
+* I have used responsive design when creating the website as the sight is expanded from a mobile first view point some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
+* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
+* I have also used a max-width, this is to ensure the content still looks good.  AS this is a Buisness to Buisness company the decisions may not be made by an individual but as a collective.  This means that meetings may take place and the site presented on a larger screen.  The max-width keeps the website looking neat and professional. 
+* I have used containers paddings and margins to make sure that the content is not too close together. 
+
 #### Homepage Wire Frame 
-
-I have used responsive design when creating the website as the sight is expanded from a mobile first view point some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
-I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
-
 
 ![Homepage Wireframe](README-files/homepage.png)
 
@@ -138,7 +139,7 @@ I used Bootstraps for the use of the grid system and for the carousel. I used ch
 
 
 
-### Imagry   
+### Imagery   
 
 Seeing as the buisness is a concept I had no images to use from the company. I looked for simple and eye catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
 I used images of people in the testimonals and for the about section.  This was to make the buisness seem friendly and approachable. These images also grow on hover, this is so the user can see the images more clearly. 
@@ -174,8 +175,6 @@ The images in body of the website all have alt attributes.  This is to ensure th
 
 #### Universal Features Across the Site
 
-
-
 ###### Logo and Navigation Bar
 The Navigation is at the top of the webpage.  The logo and Nav links all change colour and are highlighted when hovered.  The nav links direct the user to the correct page of the site. When the logo is clicked it will take the user back to the home page.
 When the page is active the class .text-uppercase is all in Capital letters and a different colour.  By having both these change it helps to improve the accessabilty
@@ -199,51 +198,71 @@ The footer split into 3 sections.  Opening Hours, Contact Info and Social. The c
 The Opening Hours includes the times the office would be open.  The contact details offer alternative ways of getting in contact with the buisness.  Such as Address, telephone and email.  The last section Social has links to social media sites using Icons from [Font Awesome](https://fontawesome.com/) When hovered over these change from a white colour to a different shade of green than the background. The social section also includes a Contact Us link that is styled as a button to premote contact to Plant Factory.
 
 
+#### Features Specific to Pages
 
-# Future Features 
+###### Homepage 
+Includes a hero image  reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.  
+About section with information of what Plant Factory does including an image of the owner.  On smaller devices is stacked, and in 2 columns on larger resolutions.
+Benefits sections lists 3 benefits of having more plants in the office.  On smaller devices this is stacked, medium devices has 2 columns and the last benefit is arranged underneath and larger devices is in 3 serperate coloumns. 
+What we offer section is displayed stacked on smaller devices and in 2 coloumns on larger screens and offers potential clients the option of potted plants or bespoke features. At the bottom of the option is another link to the contact us form. 
 
+###### Testimonial
+Includes a carousel at the top, paired with an overlay for text colour constrast and information of the buisness that the work was carried out for and the type of option they opted chose.  Below the carousel is the testimonies matching the pictures above with a picture of the person giving the testimony.   I have scaled images very large, this is because it is a showcase of the type of work the buisness has carried out.  
+I have staggered the testimonies on all devices. 
 
+##### Form 
+The Form page consists of the form and universal features only.  
+The form includes fields for the user to enter their business name and contact using - input type="text"
+The input field for email requires the answer to be an email 
+the number has to be a number in order to be valid. 
+Prefernces for contact method is by use of a radio button
+Options they would like to talk about is a checklist.  This is to make sure when the form is submitted it goes to the correct team.
+There is a - textarea - to allow the client to ask any further details.  I have used placeholder text to encourage the user to make any further comments. 
 
-Buttons consistency - correct links
-Responsiveness - media querys?
+The submit button is large and changes colour when hovered over.
 
-Footer - social media - opening times - address and contact detais
+I have set the form to POST with an action of "contact.php" this won't currently go anywhere as github pages is static hosting only. 
 
-Home
-About Us
-benefits
-What we Offer
-
-Happy Customers Carousel and Testamonies 
-
-Request a quote (form )
+The form is stacked for mobile use.  For the larger screens the radio buttons and check list appear inline.
+The labels are clear as to what should go in the field and all fields are set to required. 
 
 
 ### Future Features 
 
-Navigation collapse for mobile
+* Nav collaspes on mobile
+* Has a log in area where clients can chat online with memebers of the team and has the ability to share designs and discuss offers. 
+* Has a form submited status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.  
+* Create an option for businesses to buy smaller plants online with a way to make online payments. 
 	
 
 
 ## Technologies Used 
-    HTML5 CCS3 
+* HTML5 - Mark up language using semantic structure.
+* CCS3 - Casscading style sheet used to style.
+* Gitpod.io - for writing the code for the website. Using the command line for commiting and pushing to Git Hub
+* GitHub - USed to keep repositive
+* GIT - for version control of the project.
+* Bootstrap - For responsive design/carousel - overwriten some coe within my own stylesheet
+* Google fonts - For styling the typography
+* Balsamic wireframe - To build wireframes in the design phase. 
+* Font Awesome - for social media icons
 
-    Libaries 
-    Bootstrap,  google fonts,  (mock up)  Balsamic wireframe 
-    github git pod
 
 
 ## Testing 
 
-    Nav - links
-    Button - Forms - requests
-    Footer - social links 
+Nav links work and the user is directed to the correct page of the site. 
+Logo takes the user back to the main page.
+Contact us and Request a quote open new tab and takes user to Form.
+Hovers over links are clear and not default blue.
+Social links works. 
+    
     HTML Validator 
     CSS Validator
 ### Usability Testing
     Friends /slack 
 
-    issue with landscape testimonal - fix 
+    
 ### Browser Compatibility
     Tested on Chrome, Firefox, Brave,  Internet Explorer, Microsoft Edge, Safari.
 ### OS Compatibility
@@ -257,34 +276,141 @@ Navigation collapse for mobile
 
 
 ## Deployment 
-### Publishing 
-### cloning 
-### forking 
 
-## Known bugs 
+The project was deployed to GitHub Pages using the following steps...
 
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+Scroll down the Settings page until you locate the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+If the page won't load go down to "template" under the "source" and select a template.  I used Jerk & Hyde
+Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+### Forking
+
+Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+Making a Local Clone
+Log in to GitHub and locate the GitHub Repository
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+### Cloning 
+
+Making a Local Clone
+Log in to GitHub and locate the GitHub Repository
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Bugs 
+* There was an issue with testimonal when the content was view on a phone in landscape mode- FIX I changed the layout of the page so the content would render better. 
+* The text on the carousel takes a moment to snap to uppercase.  This is likely because of the delay in reaching the Bootstrap style sheet. FIX written the follow code in directly into my style.css 
+         
+         .carousel-caption h5, .carousel-caption p {
+    color:var(--md-brown);
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+         }
+
+         
 ## Credit
 
-### Code :
-    •	Bootstrap library was used to create a responsive design.
-    Caroursel taken directly from bootstrap - altered to fit needs 
-### Content :
-    •	Code : Rebecca Kelsall ---- and ()
+Brian - Mentor support and guidence on projects. 
 
-README file help 
-Code Institute SampleREADME
+Matt Rudge - Template for gitpod.io 
+
+Bootstrap https://mdbootstrap.com/ carousel used and customised for use in the project. 
+
+[Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+
 Code Institute README Template
-Markdown Cheatsheet
 
-### Media :
+W3schools - for various code information
+
+Font Awesome - CDN for icons used in the project
+
+Google Fonts - CDN for fonts used in the project
+
+Images taken from unsplash - see Imagary for links
+
+Freepik - pattern background
+
+
+### Code :
+•	Bootstrap library was used to create a responsive design.
+Caroursel taken directly from bootstrap - altered to fit needs 
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+
+        
+### Content :
+
+
+Code & Content (not already attributed): Rebecca Kelsall
+
+
 
 ### Inspiration : 
 
 https://makingmoveslondon.co.uk/benefits-of-plants-in-the-office/   
-http://planter.co.uk
+https://www.plant3r.com/
 
 
-### Acknowledgements
-Thank you ----
+
 
