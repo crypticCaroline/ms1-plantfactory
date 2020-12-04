@@ -33,7 +33,7 @@ html, body {
 }
 
 #bg-color-footer {
-    background-color:rgba(11,114,11,0.7);   
+    background-color:rgba(11,114,11,0.72);   
 }
 
 
@@ -267,14 +267,14 @@ img.about-img:hover {
     font-size:2.5rem;
     font-weight:600;
     padding-top:30px;
-    letter-spacing:1.25rem;
+    letter-spacing:0.125rem;
 }
 
 .sub-heading {
     color: var(--md-brown);
     font-weight: 700;
     font-size: 1.6rem;
-    letter-spacing: 0.78rem;
+    letter-spacing: 0.4rem;
     margin-bottom: 17px;
 }  
 
@@ -283,7 +283,7 @@ img.about-img:hover {
 }
 
 
-div .benefits-text h3, h5 {
+div .benefits-text h3, h5, h4 {
     color:var(--main-green);
     font-weight:400;
     letter-spacing: 0.125rem;
@@ -548,7 +548,7 @@ footer.row {
 
     #hero-text-heading {
         font-weight: 600;
-        letter-spacing: 1.25rem;
+        letter-spacing: 0.125rem;
         font-size:5rem;
         padding-top:15rem;
         text-align:left;
