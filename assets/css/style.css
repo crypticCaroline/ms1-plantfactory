@@ -19,7 +19,7 @@ body {
     margin-left: 0;
 }
 
-/*......................................................................Colors.....*/
+/*-----------------------------Background Colors*/
 
 .bg-color-car {
     background-color: var(--off-white);
@@ -39,14 +39,14 @@ body {
 }
 
 
-/*.......................................................Typography...*/
+/*------------------------------Generic Typography*/
 div {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
     font-size: 105%;
 }
 
-/*..............................................................Header...*/
+/*-------------------------------Header/Nav*/
 nav {
     min-height: 36px;
     max-height: min-content;
@@ -67,7 +67,7 @@ nav {
     text-align: left;
 }
 
-div.col-6.logo {
+.col-6.logo {
     padding-left: 13px;
     padding-right: 13px;
 }
@@ -130,7 +130,7 @@ nav a:hover {
     white-space: nowrap;
 }
 
-/*......................................................Hero Image/ Carousel....*/
+/*--------------------------Hero Image/ Carousel*/
 .hero-image {
     background: url("../images/hero-plant.jpg");
     height: 400px;
@@ -197,7 +197,7 @@ div .jumbotron {
 }
 
 
-/*............................................................................Body */
+/*----------------------------------Body */
 
 .container-pattern {
     background-image: url("../images/plant-pattern.jpg");
@@ -240,6 +240,7 @@ div .jumbotron {
     text-align: center;
     font-size: 1.5rem;
 }
+
 
 .about {
     padding: 2px;
@@ -284,7 +285,7 @@ img.about-img:hover {
 }
 
 
-div .benefits-text h3,
+.benefits-text h3,
 h5,
 h4 {
     color: var(--main-green);
@@ -292,11 +293,11 @@ h4 {
     letter-spacing: 0.125rem;
 }
 
-div .benefits-text h4 {
+.benefits-text h4 {
     padding: 0px;
 }
 
-div .benefits-text p {
+.benefits-text p {
     color: var(--main-green);
     padding: 25px 5px;
     font-weight: 400;
@@ -313,14 +314,14 @@ div .benefits-text p {
     text-decoration: none;
 }
 
-div .offer-text h3,
+.offer-text h3,
 h4 {
     color: var(--dk-brown);
     font-weight: 400;
     letter-spacing: 0.125rem;
 }
 
-div .offer-text p {
+.offer-text p {
     color: var(--dk-brown);
     padding: 5px 5px;
     font-weight: 500;
@@ -398,7 +399,7 @@ img.testimonal-images:hover {
     margin-bottom: 100px;
 }
 
-/*....................................................................Form.......*/
+/*------------------------------------Form*/
 .container-pattern-form {
 
     background-image: url("../images/plant-pattern.jpg");
@@ -418,7 +419,7 @@ img.testimonal-images:hover {
     padding-bottom: 2%;
 }
 
-div h5 small {
+h5 small {
     font-style: italic;
 }
 
@@ -471,6 +472,7 @@ textarea {
     width: 100%;
 }
 
+/*----------------------------------Footer*/
 footer {
     margin-top: 3px;
     font-size: 1rem;
@@ -522,7 +524,7 @@ footer.row {
     color: var(--main-green);
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------Media Queries---*/
+/* ----------------------------Media Queries*/
 
 @media (min-width:360px) {
     .big-button {
@@ -578,15 +580,15 @@ footer.row {
         padding: 50px;
     }
 
-    div.col-sm-4 {
+    .col-sm-4 {
         padding: 0px;
     }
 
-    div.col-4 {
+    .col-4 {
         padding-left: 17px;
     }
 
-    div.col-8 {
+    .col-8 {
         padding-right: 0px;
     }
 
@@ -631,7 +633,7 @@ footer.row {
         padding-top: 2%;
     }
 
-    div h5 small {
+    h5 small {
         font-style: italic;
     }
 
@@ -672,7 +674,7 @@ footer.row {
         font-size: 2.5rem;
     }
 
-    div.col-sm-4 {
+    .col-sm-4 {
         padding: 0px;
     }
 
@@ -692,11 +694,11 @@ footer.row {
         padding-top: 40px;
     }
 
-    div.col-4 {
+    .col-4 {
         padding-left: 17px;
     }
 
-    div.col-8 {
+    .col-8 {
         padding-right: 0px;
     }
 
