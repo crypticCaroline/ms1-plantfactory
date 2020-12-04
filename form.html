@@ -1,3 +1,8 @@
+<?php
+if($_POST["message"]) {
+    mail("rebecca.kelsall@sky.com", "Form to email message", $_POST["submit"], "From: an@email.address");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,11 +38,11 @@
                         <div>
                             <h2 class="text-uppercase form-header">Plant Factory</h2>
                                 <p>
-                                    <i>Fill out are form and one of our fantastic team memebers will get back to you.</i>
+                                    <i>Fill out our form and one of our fantastic team memebers will get back to you.</i>
                                 </p>
                         </div>        
                         <div class="request-form container">                                    
-                            <form class="form-group text-center ">
+                            <form class="form-group text-center" method="POST" action="form.php">
                                 <div class="text-request">
                                     <div class="form-group row">
                                         <label class="text-label  col-form-label" for="bname">Buisness Name</label>
@@ -86,7 +91,7 @@
                                     <div class="pref-contact-text row text-center">    
                                         <div class="col-sm-4">
                                             <label for="bespoke">Bespoke</label>
-                                            <input type="checkbox" name="options" id="bespoke" value="bespoke" required>
+                                            <input type="checkbox" name="options" id="bespoke" value="bespoke" >
                                         </div>    
                                         <div class="col-sm-4">
                                             <label for="potted">Potted</label>
