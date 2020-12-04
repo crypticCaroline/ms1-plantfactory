@@ -231,6 +231,7 @@ div .jumbotron {
     background-color: var(--main-green);
     height: 2px;
     width: 20%;
+    margin-bottom:45px;
 }
 
 .body-content {
@@ -360,7 +361,7 @@ footer .mid-button:hover {
 
 .testimonal-text p {
     color: var(--main-green);
-    padding: 50px 5px 10px 20px;
+    padding: 20px 5px 10px 0px;
     font-size: 1rem;
     font-family: 'Comic Neue', cursive;
     font-weight: 400;
@@ -383,13 +384,14 @@ img.testimonal-images {
     transition: 0.5s;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding:0;
 }
 
 img.testimonal-images:hover {
     transform: scale(1.10);
 }
 
-.col-5.image {
+.col-5 {
     padding-right: 15px;
     padding-left: 8px;
     text-align: right;
@@ -577,7 +579,7 @@ footer.row {
     }
 
     .body-content {
-        padding: 50px;
+        padding: 30px;
     }
 
     .col-sm-4 {
@@ -619,6 +621,10 @@ footer.row {
 
     .carousel-caption p {
         padding-bottom: 15%;
+    }
+
+    .testimonal-text p {
+        padding: 60px 5px 20px 0px;
     }
 
     .container-pattern-form {
@@ -687,7 +693,8 @@ footer.row {
     }
 
     .head-line {
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom:20px;
     }
 
     .about-sub-heading {
