@@ -1,7 +1,7 @@
 # Plant Factory 
 
 
-Mock Up  
+![Main Mockup](README-files/main-mockup.png)
 
 
 [Link to Live Website](https://crypticcaroline.github.io/ms1-plantfactory/index.html)
@@ -169,6 +169,7 @@ The images in body of the website all have alt attributes.  This is to ensure th
 
 ### Mock Up
 
+![Mock ups](README-files/mock-ups.png)
 
 ## Features
 
@@ -246,6 +247,7 @@ I have set the form to POST with an action of "contact.php" this won't currently
 * Google fonts - For styling the typography
 * Balsamic wireframe - To build wireframes in the design phase. 
 * Font Awesome - for social media icons
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature 
 
 
 
@@ -328,15 +330,16 @@ Making a Local Clone
 * If clonning with HTTPS "Clone with HTTPS", copy this link.
 * Open Gitbash
 * Change the current working directory to the location where you want the cloned directory to be.
-* Type git clone, and then paste the URL you copied in Step 3.
+* Type git clone, and then paste the URL you copied earlier.
+
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press - Enter-  Your local clone will be created.
+        Press - Enter-  Your local clone will be created.
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-        > Cloning into `CI-Clone`...
-        > remote: Counting objects: 10, done.
-        > remote: Compressing objects: 100% (8/8), done.
-        > remove: Total 10 (delta 1), reused 10 (delta 1)
-        > Unpacking objects: 100% (10/10), done.
+                > Cloning into `CI-Clone`...
+                > remote: Counting objects: 10, done.
+                > remote: Compressing objects: 100% (8/8), done.
+                > remove: Total 10 (delta 1), reused 10 (delta 1)
+                > Unpacking objects: 100% (10/10), done.
 [Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
 
 ## Bugs 
