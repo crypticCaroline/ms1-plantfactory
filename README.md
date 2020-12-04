@@ -197,6 +197,9 @@ The footer split into 3 sections.  Opening Hours, Contact Info and Social. The c
 
 The Opening Hours includes the times the office would be open.  The contact details offer alternative ways of getting in contact with the buisness.  Such as Address, telephone and email.  The last section Social has links to social media sites using Icons from [Font Awesome](https://fontawesome.com/) When hovered over these change from a white colour to a different shade of green than the background. The social section also includes a Contact Us link that is styled as a button to premote contact to Plant Factory.
 
+##### Meta data
+
+I have included descriptions, author and keywords into the head element to increase traffic to the website. I have also labeled each page differently so if the client has multiple tabs open it is easy to know which tab is which. 
 
 #### Features Specific to Pages
 

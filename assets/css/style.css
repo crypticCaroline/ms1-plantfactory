@@ -3,8 +3,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    margin:0.25px;   
-
+    margin:0.25px;
 }
 
 .row {
@@ -17,8 +16,7 @@ html, body {
     --main-green:#0b720b;
     --off-white:#fdfdfd;
     --dk-brown:#0c0606;
-    --md-brown: #2a2020;
-    
+    --md-brown: #2a2020;    
 }
 
 .bg-color-car {
@@ -31,15 +29,11 @@ html, body {
 
 
 .bg-color-what {
-    background-color:#F1FDF4;
-    
-    
+    background-color:#F1FDF4;    
 }
 
 #bg-color-footer {
-    background-color:rgba(11,114,11,0.66);
-    
-   
+    background-color:rgba(11,114,11,0.66);   
 }
 
 
@@ -48,64 +42,52 @@ html, body {
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
     font-size: 105%;
-    
-
  }
-
-
-
 
 /*....................................................................................................Header...*/
 nav {
     min-height: 36px;
-    max-height: min-content;
-    
-    
+    max-height: min-content;    
 }
 
 .logo {
     font-size:1.50rem;
-    letter-spacing:1.5px;
+    letter-spacing:0.1rem;
     text-decoration: none;
     white-space: nowrap;
     padding-top:13px;
     padding-bottom:13px;
-    padding-left: 0px;
-    
+    padding-left: 0px;    
 }
 
 .logo a {
     color:var(--main-green);
-    text-align: left;
-   
-    
+    text-align: left;    
 }
 
 div.col-6.logo {
     padding-left:13px;
     padding-right:13px;
 }
+
 .nav-bar-container {
     padding-top:13px;
     padding-bottom:13px;
     text-align: right;
-    padding-right:13px;
-    
+    padding-right:13px;    
 }
+
 nav a  {
     color:var(--main-green);
-    letter-spacing: 1px;
-    border: 2px none;
-    
-    
+    letter-spacing: 0.06rem;
+    border: 2px none;    
 }
 
 .logo a:hover {
     color:black;
     text-decoration: none;
     background-color: #0b720b85;
-    border-radius: 2px;
-    
+    border-radius: 2px;    
 }
 
 nav a:hover {
@@ -115,6 +97,7 @@ nav a:hover {
     border-radius: 2px;
     transform: scale(1.5)
 }
+
 .active {
     color: rgb(19, 46, 31);
     text-transform: uppercase;
@@ -144,6 +127,7 @@ nav a:hover {
 .no-wrap {
     white-space: nowrap;
 }
+
 /*....................................................................................................Hero Image/ Carousel....*/
 .hero-image {
     background:url("../images/hero-plant.jpg");
@@ -152,8 +136,7 @@ nav a:hover {
     background-size:cover;
     background-position: left;
     background-repeat: no-repeat;
-    overflow: hidden;
-  
+    overflow: hidden;  
 }
 
 
@@ -163,30 +146,26 @@ div .jumbotron {
     background-size:cover;
     height:400px;
     width: 100%;
-    }
+}
 
 
 #hero-text-heading {
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     font-size:3.2rem;
     text-align:center;
-    padding-top:0.5rem;
-    
-    
+    padding-top:0.5rem;    
 }
+
 #hero-text-sub {
     padding-top:0;
     text-align:center;
-    font-size:1.2rem;
-    
-    
+    font-size:1.2rem;    
 }
 
 .carousel-item {
     height:min-content;
     position:relative;
-    
 }
 
 .carousel-item:after {
@@ -200,8 +179,6 @@ div .jumbotron {
     background-color:#fdfdfd49;
 }
 
-
-
 .carousel.pointer-event {
     padding:0px;
 }
@@ -211,9 +188,8 @@ div .jumbotron {
     color:var(--md-brown);
     font-weight: 600;
     font-size: 1.4rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-          
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;          
 }      
 
 .carousel-caption p {
@@ -221,8 +197,6 @@ div .jumbotron {
 }
 
 /*..............................................................................................................Body */
-
-
 
 .container-pattern {
     background-image:url(../images/plant-pattern.jpg);
@@ -235,17 +209,12 @@ div .jumbotron {
     padding-bottom:40px;        
 }
 
-
 .container-benefits {
     height: min-content;
     width:100%;
     padding-top: 20px;
     padding-bottom:20px;
-
 }
-
-
-
 
 .contrast-back {
     background-color: rgba(255, 255, 255, 0.9);
@@ -261,9 +230,7 @@ div .jumbotron {
     background-color:var(--main-green);
     height:2px;
     width:20%;
-
 }
-
 
 .body-content {
     margin: 10px;
@@ -271,7 +238,6 @@ div .jumbotron {
     letter-spacing:0.018rem;
     text-align: center;
     font-size:1.5rem;
-
 }
 
 .about {
@@ -279,10 +245,9 @@ div .jumbotron {
     height: min-content;
     color: var(--md-brown);
     font-weight:400;
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
     font-size:1.4rem;
-    padding-bottom:80px;
-    
+    padding-bottom:80px;    
 }
 
 img.about-img{
@@ -291,8 +256,7 @@ img.about-img{
     background-size: contain;
     border-radius: 2%;
     transition:1s ease-in-out;
-    padding-top:50px;
-    
+    padding-top:50px;    
 }  
 
 img.about-img:hover {
@@ -303,14 +267,14 @@ img.about-img:hover {
     font-size:2.5rem;
     font-weight:600;
     padding-top:30px;
-    letter-spacing:2px;
+    letter-spacing:1.25rem;
 }
 
 .sub-heading {
     color: var(--md-brown);
     font-weight: 700;
     font-size: 1.6rem;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.78rem;
     margin-bottom: 17px;
 }  
 
@@ -322,9 +286,7 @@ img.about-img:hover {
 div .benefits-text h3, h5 {
     color:var(--main-green);
     font-weight:400;
-    letter-spacing: 2px;
-
-
+    letter-spacing: 0.125rem;
 }
 
 div .benefits-text h4 {
@@ -335,7 +297,7 @@ div .benefits-text p {
     color:var(--main-green);
     padding:25px 5px;
     font-weight:400;
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
 }
 
 .link-study {
@@ -351,15 +313,14 @@ div .benefits-text p {
 div .offer-text h3, h4 {
     color:var(--dk-brown);
     font-weight:400;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }    
 
 div .offer-text p { 
     color:var(--dk-brown);
     padding:5px 5px;
     font-weight:500;
-    letter-spacing: 1px;
-
+    letter-spacing: 0.06rem;
 }    
 
 .big-button {
@@ -370,7 +331,6 @@ div .offer-text p {
     border-color: var(--main-green);
     border: 0.05rem solid;
     margin:10px;
-
 }
 
 .big-button:hover {
@@ -391,7 +351,6 @@ div .offer-text p {
 footer .mid-button:hover {
     background-color: var(--main-green);
     color: var(--off-white);
-
 }    
 
 .testimonal-text p {
@@ -399,8 +358,7 @@ footer .mid-button:hover {
     padding:50px 5px 10px 20px;
     font-size: 1rem;
     font-family: 'Comic Neue', cursive;
-    font-weight: 400;
-    
+    font-weight: 400;    
 }
 
 .right-text p {
@@ -418,8 +376,7 @@ img.testimonal-images {
     background-size:contain;
     transition: 0.5s;
     margin-top:10px;
-    margin-bottom:20px;
-    
+    margin-bottom:20px;    
 }
 
 img.testimonal-images:hover {
@@ -430,14 +387,11 @@ img.testimonal-images:hover {
     padding-right:15px;
     padding-left:8px;
     text-align:right;
-
 }
 
 .row.testimonal-text {
     margin-bottom:100px;
 }
-
-
 
 /*..................................................................................................Form.......*/
 .container-pattern-form {
@@ -448,9 +402,7 @@ img.testimonal-images:hover {
     background-repeat: no-repeat;
     overflow: hidden;
     width:100%;
-    margin:0px;
-    
-       
+    margin:0px;       
 }        
 
 .request-form {
@@ -459,7 +411,6 @@ img.testimonal-images:hover {
     border-color: var(--dk-brown);
     padding-top:5%;
     padding-bottom: 2%;
-
 } 
 div h5 small {
     font-style: italic;
@@ -474,64 +425,53 @@ div h5 small {
     left:12.5%;
     border-radius:2%;
     bottom:10%;
-
 }
 
 .fit-center .hero-text, h2 {
  padding-left:15px;
  padding-right:15px;
 }
+
 .form-header {
     padding-top: 10%;
     padding-bottom: 3%;
     font-size: 3rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
 }
 
 .text-request {
    padding-left:10%;
    padding-right:10%;
-
 }
 
 .pref-contact-text {
-
     padding:10px;
-
 }
 
 h5 .pref-contact-text {
     padding-top:10px;
 }
 
-
-
 form h5 {
     font-size: 1.5rem;
 }
 
 label {
-    padding-right:5px;
-    
+    padding-right:5px;    
 }
 
 textarea {
     width:100%;
 }   
 
-.form-button:hover {
-    color:rgb(43, 63, 47)
-}
-
 footer {
     margin-top:3px;
     font-size:1rem;
     font-weight: 300;
     color: var(--off-white);
-    letter-spacing: 1px;
-    
-
+    letter-spacing: 0.06rem;
 }
+
 .footer-style {
     padding-top:30px;
 }
@@ -546,10 +486,9 @@ footer h5 {
 footer p {
     font-size: 1.3rem;
     font-weight: 300;
-    margin-bottom: 0px;
-    
-    
+    margin-bottom: 0px;    
 }
+
 footer.row {
     min-height: 40px;
     padding-bottom: 0px;
@@ -558,26 +497,24 @@ footer.row {
 }
 
 .f-social, .f-social a  {
-    letter-spacing: 7px;
+    letter-spacing: 0.44rem;
     color: var(--off-white);
     padding-bottom:20px;
 }
 
 .footer-style .f-social a:hover {
-    color: var(--main-green);
-    
+    color: var(--main-green);    
 }
 
 .button-padding {
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;    
 }
+
 .footer-style .mid-button {
     color:var(--main-green);
 }
 
-
-
+/* ------------------------------------------------------------------------------------------------------------------------Media Queries---*/
 
 @media (min-width:360px) {
     .big-button {
@@ -587,18 +524,15 @@ footer.row {
     .logo {
     font-size:2.00rem;
     } 
-
-    
-
 }
 
 
 @media(min-width: 728px) {
     .nav-bar-item {
-    padding-right:13px;
-    padding-left:13px;
-    font-size: 1.16rem;
-    text-align: right;
+        padding-right:13px;
+        padding-left:13px;
+        font-size: 1.16rem;
+        text-align: right;
     }
     
     .hero-image {
@@ -613,11 +547,11 @@ footer.row {
     }
 
     #hero-text-heading {
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size:5rem;
-    padding-top:15rem;
-    text-align:left;
+        font-weight: 600;
+        letter-spacing: 1.25rem;
+        font-size:5rem;
+        padding-top:15rem;
+        text-align:left;
     }
 
     #hero-text-sub {
@@ -625,15 +559,11 @@ footer.row {
         padding-right: 1.5rem;
         padding-left:1.5rem;
         font-size:2rem;
-    }
-    
-   
+    }      
 
     .body-content {
         padding: 50px;    
-    }
-
-       
+    }       
 
     div.col-sm-4 {
         padding:0px;        
@@ -645,7 +575,6 @@ footer.row {
     div.col-8 {
         padding-right: 0px;
     }
-
     
     .about {
         position: relative;
@@ -668,9 +597,7 @@ footer.row {
 
     .carousel-caption h5, .carousel-caption p {    
     font-size: 3rem;
-    padding-bottom:2%;
-      
-          
+    padding-bottom:2%;          
     }      
 
     .carousel-caption p {
