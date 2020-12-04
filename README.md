@@ -4,8 +4,7 @@
 Mock Up  
 
 
-Link to Live Website 
-https://crypticcaroline.github.io/ms1-plantfactory/index.html
+[Link to Live Website](https://crypticcaroline.github.io/ms1-plantfactory/index.html)
 
 GitHub Repo 
 
