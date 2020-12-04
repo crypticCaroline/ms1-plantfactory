@@ -251,11 +251,11 @@ The labels are clear as to what should go in the field and all fields are set to
 
 ## Testing 
 
-Nav links work and the user is directed to the correct page of the site. 
-Logo takes the user back to the main page.
-Contact us and Request a quote open new tab and takes user to Form.
-Hovers over links are clear and not default blue.
-Social links works. 
+* Nav links work and the user is directed to the correct page of the site. 
+* Logo takes the user back to the main page.
+* Contact us and Request a quote open new tab and takes user to Form.
+* Hovers over links are clear and not default blue.
+* Social links works. 
     
     HTML Validator 
     CSS Validator
@@ -336,14 +336,14 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 * The text on the carousel takes a moment to snap to uppercase.  This is likely because of the delay in reaching the Bootstrap style sheet. FIX written the follow code in directly into my style.css 
          
          .carousel-caption h5, .carousel-caption p {
-    color:var(--md-brown);
-    font-weight: 600;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+        color:var(--md-brown);
+        font-weight: 600;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
          }
 
-         
+
 ## Credit
 
 Brian - Mentor support and guidence on projects. 
