@@ -13,7 +13,9 @@ GitHub Repo
  Plant Factory is a buisness dedicated at bringing postive change to workplaces in the form of adding more natural elements. 
  The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
  Plant Factory offers both bespoke plant feature building and installant and potted plants/trees of a range of sizes for office place.  Plant factory will visit the buisness to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quanities/ larger plants suited to buisnesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built in plant walls, islands with trees in the middle and hanging fixtures. 
- Plant Factory would need to have a website to help get new clients and showcase some of their current or existing work.  Plant Factory will need to have contact form so that new and existing clients could reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing buisness and additional features implamented. 
+ 
+ 
+ Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have contact form so that new and existing clients could reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing buisness and additional features implamented. 
 
 ## Index – Table of Contents
 
@@ -275,12 +277,18 @@ I maded some changes, such as increasing contrast, adding meta data and making s
 
 ### Testing User Stories
 
-* ###### A user looking for office plants to add to the office or workspace or buisness. - The user can find the correct quickly on the first page of the site that this is something that we offer, the user is given the option to get in contact and can have a look at testimonies and images of work carried out. 
-* ###### A user looking to install a plant feature. -The user can easily see that this is something we offer.  The user is given the option to get in contact and can have a look at testimonies and images of work carried out previously. 
-* ###### A user who already has a quotation but wants to get in contact. -  The user can find our contact details in the footer, this includes a phone number, address, and email.  There is also a big button that the user can click to be taken to a seperate page to contact us. 
-* ###### A user doing research on what we offer. - The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open them can navigate between them easily. 
-* ###### A user looking to see if we have done previous work. - Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar. 
-* ###### A user showing the site to other people within their buisness. -  Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
+* ###### A user looking for office plants to add to the office or workspace or buisness. 
+The user can find the correct quickly on the first page of the site that this is something that we offer, the user is given the option to get in contact and can have a look at testimonies and images of work carried out. 
+* ###### A user looking to install a plant feature. -The user can easily see that this is something we offer.   
+The user is given the option to get in contact and can have a look at testimonies and images of work carried out previously. 
+* ###### A user who already has a quotation but wants to get in contact.
+The user can find our contact details in the footer, this includes a phone number, address, and email.  There is also a big button that the user can click to be taken to a seperate page to contact us. 
+* ###### A user doing research on what we offer. 
+The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open them can navigate between them easily. 
+* ###### A user looking to see if we have done previous work. 
+Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar. 
+* ###### A user showing the site to other people within their buisness.   
+Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
 ## Deployment 
 
