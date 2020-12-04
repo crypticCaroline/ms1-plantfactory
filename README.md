@@ -129,7 +129,7 @@ I made all my call to actions as easy to see as possible.
 
 #### Testimonial Wireframe
 
-![Testimonial Wireframe](README-files/testimonialspng)
+![Testimonial Wireframe](README-files/testimonials.png)
 
 #### Form Wireframe 
 
@@ -189,7 +189,7 @@ As the page is scaled up and down for different screen resolutions the content s
 
 All images and navigations have an alt attributes or aria-label.  This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. 
 There is high contrast used throughout the design. Header elements have been use in sequence so that the site makes semantic sense to screen readers. 
-With links being consistant when hovered over. 
+With links being consistant when hovered over.  I have also set the font to rem so that if somone has they font settings higher for visabilty the font size will increase accordingly. 
 
 ###### Footer 
 
@@ -204,30 +204,28 @@ I have included descriptions, author and keywords into the head element to incre
 #### Features Specific to Pages
 
 ###### Homepage 
-Includes a hero image  reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.  
-About section with information of what Plant Factory does including an image of the owner.  On smaller devices is stacked, and in 2 columns on larger resolutions.
-Benefits sections lists 3 benefits of having more plants in the office.  On smaller devices this is stacked, medium devices has 2 columns and the last benefit is arranged underneath and larger devices is in 3 serperate coloumns. 
-What we offer section is displayed stacked on smaller devices and in 2 coloumns on larger screens and offers potential clients the option of potted plants or bespoke features. At the bottom of the option is another link to the contact us form. 
+* Includes a hero image  reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.  
+* About section with information of what Plant Factory does including an image of the owner.  On smaller devices is stacked, and in 2 columns on larger resolutions.
+* Benefits sections lists 3 benefits of having more plants in the office.  On smaller devices this is stacked, medium devices has 2 columns and the last benefit is arranged underneath and larger devices is in 3 serperate coloumns. 
+* What we offer section is displayed stacked on smaller devices and in 2 coloumns on larger screens and offers potential clients the option of potted plants or bespoke features. At the bottom of the option is another link to the contact us form. 
 
 ###### Testimonial
-Includes a carousel at the top, paired with an overlay for text colour constrast and information of the buisness that the work was carried out for and the type of option they opted chose.  Below the carousel is the testimonies matching the pictures above with a picture of the person giving the testimony.   I have scaled images very large, this is because it is a showcase of the type of work the buisness has carried out.  
-I have staggered the testimonies on all devices. 
+* Includes a carousel at the top, paired with an overlay for text colour constrast and information of the buisness that the work was carried out for and the type of option they opted chose.  Below the carousel is the testimonies matching the pictures above with a picture of the person giving the testimony.   I have scaled images very large, this is because it is a showcase of the type of work the buisness has carried out.  
+* I have staggered the testimonies on all devices. 
 
 ##### Form 
-The Form page consists of the form and universal features only.  
-The form includes fields for the user to enter their business name and contact using - input type="text"
-The input field for email requires the answer to be an email 
-the number has to be a number in order to be valid. 
-Prefernces for contact method is by use of a radio button
-Options they would like to talk about is a checklist.  This is to make sure when the form is submitted it goes to the correct team.
-There is a - textarea - to allow the client to ask any further details.  I have used placeholder text to encourage the user to make any further comments. 
-
-The submit button is large and changes colour when hovered over.
+* The Form page consists of the form and universal features only.  
+* The form includes fields for the user to enter their business name and contact using - input type="text"
+* The input field for email requires the answer to be an email 
+* The number has to be a number in order to be valid. 
+* Prefernces for contact method is by use of a radio button as there is an option for both to be selected and no errors made causing potential upset to the client. 
+* Options they would like to talk about is a checklist.  This is to make sure when the form is submitted it goes to the correct team.
+* There is a - textarea - to allow the client to ask any further details.  I have used placeholder text to encourage the user to make any further comments. 
+* The submit button is large and changes colour when hovered over.
+* The form is stacked for mobile use.  For the larger screens the radio buttons and check list appear inline.
+* The labels are clear as to what should go in the field and all fields are set to required. 
 
 I have set the form to POST with an action of "contact.php" this won't currently go anywhere as github pages is static hosting only. 
-
-The form is stacked for mobile use.  For the larger screens the radio buttons and check list appear inline.
-The labels are clear as to what should go in the field and all fields are set to required. 
 
 
 ### Future Features 
@@ -260,10 +258,20 @@ The labels are clear as to what should go in the field and all fields are set to
 * Hovers over links are clear and not default blue.
 * Social links works. 
     
-    HTML Validator 
-    CSS Validator
+[HTML Validator](https://validator.w3.org/)
+![HTML Validator](README-files/html-valid.png)
+
+[CSS Validator](https://validator.w3.org/)
+![HTML Validator](README-files/css-valid.png)
+
+A few warnings were displayed when using the validator this is because of the varibles I have used to help with the maintenence of the site.  The other error is due to using external style sheets. I am happy with the outcome of this test. 
+
 ### Usability Testing
-    Friends /slack 
+
+I sent the project to a few of my peers in the slack community and to a few friends within the industry.  I had them check to ensure all links were working and  the website was responsive at different screen resolutions.
+One of my friends viewed the project in simplified mode and commented that the website was still easy to navigate and displayed clearly. 
+
+A few bugs were identified prior to diployment.  The form was being cut off the bottom on very small screen sizes and the links to social media were not working.  I FIXED these prior to deployment.  By making sure the web address was correct and  by resizing the form.
 
     
 ### Browser Compatibility
@@ -272,7 +280,9 @@ The labels are clear as to what should go in the field and all fields are set to
     Tested on iOS , Android 10 and Windows 10.
     Tested for responsivness on Chrome DevTools.
 ### Performance Testing
-    Tested on Developer Tools Lighthouse.
+Tested on Developer Tools Lighthouse.  This is the first time running through Lighthouse
+
+![Lighthouse results](README-files/lighthouse-before.png)
 
 ### Testing User Stories
     go through each story what is wanted? 
@@ -280,59 +290,46 @@ The labels are clear as to what should go in the field and all fields are set to
 
 ## Deployment 
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed with the following steps
 
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
-The page will automatically refresh.
-If the page won't load go down to "template" under the "source" and select a template.  I used Jerk & Hyde
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+* Logged into git hub
+* Clicked the "Settings" button in the menu aboove the Repository.
+* Scroll down the Settings page to the "GitHub Pages" Section.
+* Under "Source", click the dropdown called "None" and then select "Master Branch".
+* The page will automatically refresh and a link displaced.  It may take some time for the link to show the website.
+* If the page won't load go down to "template" under the "source" and select a template. 
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking
 
 Forking the GitHub Repository
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository you can make a copy original repository on our GitHub account.  This means we can view or make changes without making the changes affect the original.
 
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-You should now have a copy of the original repository in your GitHub account.
-Making a Local Clone
-Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+* Log into GitHub and locate the GitHub Repository.
+* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
+* You should now have a new copy of the original repository in your own GitHub account.
+
+
 
 ### Cloning 
 
 Making a Local Clone
-Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+* Log into  your GitHub then find the gitpod repository
+* Under the repository name there is a button that say "Clone or download" click this.
+* If clonning with HTTPS "Clone with HTTPS", copy this link.
+* Open Gitbash
+* Change the current working directory to the location where you want the cloned directory to be.
+* Type git clone, and then paste the URL you copied in Step 3.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press - Enter-  Your local clone will be created.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        > Cloning into `CI-Clone`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
+[Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
 
 ## Bugs 
 * There was an issue with testimonal when the content was view on a phone in landscape mode- FIX I changed the layout of the page so the content would render better. 
@@ -346,10 +343,11 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
         text-transform: uppercase;
          }
 
+* When the rem size is increased on a user screen the text on the hero image is lost and the form is cut off form the bottom.  
 
 ## Credit
 
-Brian - Mentor support and guidence on projects. 
+Brian Macharia- Mentor support and guidence throughout the project. 
 
 Matt Rudge - Template for gitpod.io 
 
@@ -359,15 +357,23 @@ Bootstrap https://mdbootstrap.com/ carousel used and customised for use in the p
 
 Code Institute README Template
 
-W3schools - for various code information
+W3schools - for various code information.
 
-Font Awesome - CDN for icons used in the project
+Font Awesome - CDN for icons used in the project.
 
-Google Fonts - CDN for fonts used in the project
+Google Fonts - CDN for fonts used in the project.
 
-Images taken from unsplash - see Imagary for links
+Images taken from unsplash - see Imagary for links.
 
-Freepik - pattern background
+Freepik - pattern background.
+
+Rob Beaney -  for testing and reporting any bugs or issues. 
+
+Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
+
+Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
+
+Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonal landscape bug, also for pointing out the social links were not working. 
 
 
 ### Code :
