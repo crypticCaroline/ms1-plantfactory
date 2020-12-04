@@ -274,12 +274,21 @@ A few bugs were identified prior to diployment.  The form was being cut off the 
 
     
 ### Browser Compatibility
-    Tested on Chrome, Firefox, Brave,  Internet Explorer, Microsoft Edge, Safari.
+
+Tested on Chrome, Firefox, Brave,  Internet Explorer, Microsoft Edge, Safari.
+I tested on older version of Internet Explorer, the website works from Internet Explore 9 and onwards, although not all the content is as designed the overall layout means the content is still easy to read and the images are still visable. 
+I used [IE NetREnderer](https://netrenderer.com/index.php) to test the older versions. 
+
 ### OS Compatibility
-    Tested on iOS , Android 10 and Windows 10.
-    Tested for responsivness on Chrome DevTools.
+Tested on iOS , Android 10 and Windows 10.
+Tested for responsivness on Chrome DevTools.
+
 ### Performance Testing
 Tested on Developer Tools Lighthouse.  This is the first time running through Lighthouse
+
+![Lighthouse results](README-files/lighthouse-before.png)
+
+I maded some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
 
 ![Lighthouse results](README-files/lighthouse-before.png)
 

@@ -187,7 +187,7 @@ div .jumbotron {
 .carousel-caption h5, .carousel-caption p {
     color:var(--md-brown);
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 0.06rem;
     text-transform: uppercase;          
 }      
