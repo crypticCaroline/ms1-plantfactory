@@ -290,7 +290,7 @@ Tested on Developer Tools Lighthouse.  This is the first time running through Li
 
 I maded some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
 
-![Lighthouse results](README-files/lighthouse-before.png)
+![Lighthouse results](README-files/lighthouse-after.png)
 
 ### Testing User Stories
     go through each story what is wanted? 
