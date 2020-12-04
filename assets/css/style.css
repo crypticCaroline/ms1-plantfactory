@@ -187,14 +187,12 @@ div .jumbotron {
 .carousel-caption h5, .carousel-caption p {
     color:var(--md-brown);
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     letter-spacing: 0.06rem;
-    text-transform: uppercase;          
+    text-transform: uppercase;
+             
 }      
 
-.carousel-caption p {
-    padding-bottom:2%;
-}
 
 /*..............................................................................................................Body */
 
@@ -524,6 +522,8 @@ footer.row {
     .logo {
     font-size:2.00rem;
     } 
+    .carousel-caption h5, .carousel-caption p {
+    font-size: 1.3rem;
 }
 
 
