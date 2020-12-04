@@ -4,9 +4,9 @@
 
 [Link to Live Website](https://crypticcaroline.github.io/ms1-plantfactory/index.html)
 
-GitHub Repo 
+[GitHub Repo](https://github.com/crypticCaroline/ms1-plantfactory)
 
-
+*** 
 
 ## About 
  Plant Factory is a buisness concept created for my MS1 project with Code Institute.  
@@ -17,16 +17,22 @@ GitHub Repo
  
  Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have contact form so that new and existing clients could reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing buisness and additional features implamented. 
 
+***
+
+
 ## Index – Table of Contents
 
-* User Experience (UX) 
-* Features
-* Designs 
-* Technologies Used
-* Testing 
-* Known Bugs
-* Deployment
-* Acknowledgements 
+* [User Experience (UX)](#user-experience) 
+* [Features](#features)
+* [Designs](#designs)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Known Bugs](#known-bugs)
+* [Deployment](#deployment)
+* [Acknowledgements](#credit)
+
+
+*** 
 
 ## User Experience (UX)
 ### User Stories
@@ -59,6 +65,9 @@ GitHub Repo
 * To provide an easy to navigate website with links that work as expected.
 * To showcase customer testimonies and expect customer to read them.
 * For clients to be invoked into contacting us for a quote. 
+
+
+***
 
 
 ## Designs
@@ -127,6 +136,10 @@ I made all my call to actions as easy to see as possible.
 
 ![Form Wireframe](README-files/form.png)
 
+
+***
+
+
 ### Imagery   
 
 Seeing as the buisness is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
@@ -156,6 +169,8 @@ The images in body of the website all have alt attributes.  This is to ensure th
 
 ![Mock ups](README-files/mock-ups.png)
 
+***
+
 ## Features
 
 #### Universal Features Across the Site
@@ -184,6 +199,8 @@ The Opening Hours includes the times the office would be open.  The contact deta
 ##### Meta data
 
 I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labeled each page differently so if the client has multiple tabs open it is easy to know which tab is which. 
+
+*** 
 
 #### Features Specific to Pages
 
@@ -219,17 +236,34 @@ I have set the form to POST with an action of "contact.php" this will not curren
 * Create an option for businesses to buy smaller plants online with a way to make online payments. 
     
 
+***
+
+
 ## Technologies Used 
+
+
 * HTML5 - Mark-up language using semantic structure.
 * CCS3 - Cascading style sheet used to style.
 * Gitpod.io - for writing the code for the website. Using the command line for commiting and pushing to Git Hub
 * GitHub - Used to host repository 
 * GIT - for version control of the project.
-* Bootstrap - For responsive design/carousel - overwriten some coe within my own stylesheet
-* Google fonts - For styling the typography
-* Balsamic wireframe - To build wireframes in the design phase. 
-* Font Awesome - for social media icons
+
+Design 
+* [Bootstrap](https://getbootstrap.com/) - For responsive design/carousel - overwriten some coe within my own stylesheet
+* [Google fonts](https://fonts.google.com/) - For styling the typography
+* [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
+* [Font Awesome](https://fontawesome.com/) - for social media icons
+
+
+Testing 
+* [HTML Validator](https://validator.w3.org/) - Testing validity of HTML
+* [CSS Validator](https://validator.w3.org/) -Testing validity of CSS
+* [IE NetREnderer](https://netrenderer.com/index.php)
 * [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature 
+* DEV Tools - Lighthouse
+
+
+***
 
 
 ## Testing 
@@ -290,6 +324,10 @@ Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar
 * ###### A user showing the site to other people within their buisness.   
 Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
+
+*** 
+
+
 ## Deployment 
 
 The project was deployed with the following steps
@@ -347,38 +385,40 @@ Making a Local Clone
 
 * When the rem size is increased on a user screen the text on the hero image is lost and the form is cut off form the bottom.  
 
-## Credit
+***
 
-Brian Macharia- Mentor support and guidence throughout the project. 
+## Acknowledgements
 
-Matt Rudge - Template for gitpod.io 
+### Credit
 
-Bootstrap https://mdbootstrap.com/ carousel used and customised for use in the project. 
+* Brian Macharia- Mentor support, guidence, tips and key things to look out for throughout the project. Helping me to check for errors and looking at my code. 
+* Matt Rudge - Template for gitpod.io 
+* Rob Beaney - for testing and reporting any bugs or issues, helping me to trouble shoot an issue with positioning. 
+* Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
+* Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
+* Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonal landscape bug, also for pointing out the social links were not working. 
 
-[Code Institute SampleREADME] (https://github.com/Code-Institute-Solutions/SampleREADME)
+* [Bootstrap](https://mdbootstrap.com/)  - Carousel used and customised for use in the project. 
+* [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
+* [W3schools](https://www.w3schools.com/) - for various code information and trouble shooting.
+* [Google fonts](https://fonts.google.com/) - CDN for the fonts were used in the project.
+* [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
+* [Font Awesome](https://fontawesome.com/) - for social media icons) - CDN for icons used in the project.
+* [Unsplash](https://unsplash.com/) Images taken from unsplash - see [Imagery](#imagery) for links.
+* [Freepik](https://www.freepik.com/)- pattern background
+* [HTML Validator](https://validator.w3.org/) - Testing validity of HTML.
+* [CSS Validator](https://validator.w3.org/) -Testing validity of CSS.
+* [IE NetREnderer](https://netrenderer.com/index.php)
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
+* [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
 
-Code Institute README Template
+*** 
 
-W3schools - for various code information.
-
-Font Awesome - CDN for icons used in the project.
-
-Google Fonts - CDN for fonts used in the project.
-
-Images taken from unsplash - see Imagery for links.
-
-Freepik - pattern background.
-
-Rob Beaney - for testing and reporting any bugs or issues. 
-
-Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
-
-Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
-
-Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonal landscape bug, also for pointing out the social links were not working. 
 
 ### Code:
-•   Bootstrap library was used to create a responsive design.
+
+*  Bootstrap library was used to create a responsive design.
 Carousel taken directly from bootstrap - altered to fit needs 
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -408,7 +448,8 @@ Carousel taken directly from bootstrap - altered to fit needs
         </a>
         </div>
 
-        
+***
+
 ### Content:
 
 Code & Content (not already attributed): Rebecca Kelsall
