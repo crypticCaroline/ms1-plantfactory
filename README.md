@@ -14,10 +14,10 @@
    
  Plant Factory is a business dedicated to bringing postive change to workplaces in the form of adding more natural elements. 
  The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
- Plant Factory offers both bespoke plant feature and potted plants/trees of a range of sizes for office place.  Plant factory will visit the buisness to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures. 
+ Plant Factory offers both bespoke plant feature and potted plants/trees of a range of sizes for office place.  Plant factory will visit the business to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures. 
  
  
- Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have a contact form so that new and existing clients can reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the buisness to grow.  As the buisness grows the website can be adapted to the growing business and additional features implemented. 
+ Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have a contact form so that new and existing clients can reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the business to grow.  As the business grows the website can be adapted to the growing business and additional features implemented. 
 
 ***
 
@@ -73,7 +73,7 @@
 ### Colour
 
 I have used rich green as my main colour theme for the website. This has been paired with an offwhite colour to ensure good contrast. This will help with Accessibility for visually impaired users. 
-This goes with the theme of the website and the buisness.  The business moto is making offices greener.  
+This goes with the theme of the website and the business.  The business moto is making offices greener.  
 These colour features several times througout the website which is why I have set a varible in the code.  
 I have used the following 
 
@@ -138,8 +138,8 @@ I made all my call to actions as easy to see as possible.
 
 ### Imagery   
 
-Seeing as the buisness is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
-I used images of people in the testimonals and for the about section.  This was to make the buisness seem friendly and approachable. These images also grow on hover, this is so the user can see the images more clearly. 
+Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
+I used images of people in the testimonals and for the about section.  This was to make the business seem friendly and approachable. These images also grow on hover, this is so the user can see the images more clearly. 
 I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices
 
 Image Links - 
@@ -152,7 +152,7 @@ Image Links -
 * [Carousel Images](https://unsplash.com/photos/VWcPlbHglYc)
 * [Carousel Image ](https://unsplash.com/photos/p_kICQCOM4s)
 
-I also used a pattern background of leaves for the form page and the What we offer section.  This was to tie into the theme of the buisness and increase visual appeal. 
+I also used a pattern background of leaves for the form page and the What we offer section.  This was to tie into the theme of the business and increase visual appeal. 
 
 [Pattern background](https://www.freepik.com/free-vector/mostera-background_4258347.htm#page=2&query=pattern+background+plant&position=46)
 
@@ -188,7 +188,7 @@ With links being consistant when hovered over.  I have also set the font to rem 
 
 The footer split into 3 sections.  Opening Hours, Contact Info and Social. The colour used for the background is our main-green colour with a reduce opacity as the colour is very bold when at 100%. Theses are stacked on smaller devices and are arranged in 3 coloumns on larger devices.   
 
-The Opening Hours includes the times the office would be open.  The contact details offer alternative ways of getting in contact with the buisness.  Such as Address, telephone, and email.  The last section Social has links to social media sites using Icons from [Font Awesome](https://fontawesome.com/) When hovered over these change from a white colour to a different shade of green than the background. The social section also includes a Contact Us link that is styled as a button to premote contact to Plant Factory.
+The Opening Hours includes the times the office would be open.  The contact details offer alternative ways of getting in contact with the business.  Such as Address, telephone, and email.  The last section Social has links to social media sites using Icons from [Font Awesome](https://fontawesome.com/) When hovered over these change from a white colour to a different shade of green than the background. The social section also includes a Contact Us link that is styled as a button to premote contact to Plant Factory.
 
 ##### Meta data
 
@@ -311,7 +311,7 @@ The user can find our contact details in the footer, this includes a phone numbe
 The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open them can navigate between them easily. 
 * ###### A user looking to see if we have done previous work. 
 Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar. 
-* ###### A user showing the site to other people within their buisness.   
+* ###### A user showing the site to other people within their business.   
 Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
 *** 
