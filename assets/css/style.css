@@ -1,99 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;1,400&display=swap');
 
-html, body {
+:root {
+    --main-green: #0b720b;
+    --off-white: #fdfdfd;
+    --dk-brown: #0c0606;
+    --md-brown: #2a2020;
+}
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
-    margin:0.25px;
+    margin: 0.25px;
 }
 
 .row {
-    margin-right:0;
-    margin-left:0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
-/*...................................................................................................Colors.....*/
-:root {
-    --main-green:#0b720b;
-    --off-white:#fdfdfd;
-    --dk-brown:#0c0606;
-    --md-brown: #2a2020;    
-}
+/*......................................................................Colors.....*/
 
 .bg-color-car {
     background-color: var(--off-white);
 }
 
 .bg-color-benefits {
-    background-color:var(--off-white);
+    background-color: var(--off-white);
 }
 
 
 .bg-color-what {
-    background-color:#F1FDF4;    
+    background-color: #f1fdf4;
 }
 
 #bg-color-footer {
-    background-color:rgba(11,114,11,0.72);   
+    background-color: rgba(11, 114, 11, 0.72);
 }
 
 
-/*....................................................................................................Typography...*/
- div {
-    font-family:'Yanone Kaffeesatz', sans-serif;
+/*.......................................................Typography...*/
+div {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
     font-size: 105%;
- }
+}
 
-/*....................................................................................................Header...*/
+/*..............................................................Header...*/
 nav {
     min-height: 36px;
-    max-height: min-content;    
+    max-height: min-content;
 }
 
 .logo {
-    font-size:1.50rem;
-    letter-spacing:0.1rem;
+    font-size: 1.50rem;
+    letter-spacing: 0.1rem;
     text-decoration: none;
     white-space: nowrap;
-    padding-top:13px;
-    padding-bottom:13px;
-    padding-left: 0px;    
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 0px;
 }
 
 .logo a {
-    color:var(--main-green);
-    text-align: left;    
+    color: var(--main-green);
+    text-align: left;
 }
 
 div.col-6.logo {
-    padding-left:13px;
-    padding-right:13px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 .nav-bar-container {
-    padding-top:13px;
-    padding-bottom:13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     text-align: right;
-    padding-right:13px;    
+    padding-right: 13px;
 }
 
-nav a  {
-    color:var(--main-green);
+nav a {
+    color: var(--main-green);
     letter-spacing: 0.06rem;
-    border: 2px none;    
+    border: 2px none;
 }
 
 .logo a:hover {
-    color:black;
+    color: black;
     text-decoration: none;
-    background-color: #0b720b85;
-    border-radius: 2px;    
+    background-color: rgba(11, 114, 11, 0.52);
+    border-radius: 2px;
 }
 
 nav a:hover {
-    color:var(--md-brown);
+    color: var(--md-brown);
     text-decoration: none;
-    background-color:#0b720b85;
+    background-color: rgba(11, 114, 11, 0.52);
     border-radius: 2px;
     transform: scale(1.5)
 }
@@ -105,46 +107,46 @@ nav a:hover {
 
 
 .nav-bar-item {
-    padding-right:10px;
-    padding-left:10px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 1rem;
     text-align: center;
 }
 
-.button-style{
-    border:2px none;
-    border-radius:5px;
+.button-style {
+    border: 2px none;
+    border-radius: 5px;
     background-color: rgba(104, 72, 72, 0.1);
-    padding:5px;
+    padding: 5px;
 }
 
 .button-style:hover {
     color: var(--off-white);
-    background-color:var(--main-green);
-    text-decoration:none;
-}    
+    background-color: var(--main-green);
+    text-decoration: none;
+}
 
 .no-wrap {
     white-space: nowrap;
 }
 
-/*....................................................................................................Hero Image/ Carousel....*/
+/*......................................................Hero Image/ Carousel....*/
 .hero-image {
-    background:url("../images/hero-plant.jpg");
-    height:400px;
-    width:100%;
-    background-size:cover;
+    background: url("../images/hero-plant.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 
 div .jumbotron {
-    background-color: rgb(235 235 235 / 0.05);
+    background-color: rgba(235 235 235 / 0.05);
     position: absolute;
-    background-size:cover;
-    height:400px;
+    background-size: cover;
+    height: 400px;
     width: 100%;
 }
 
@@ -152,120 +154,121 @@ div .jumbotron {
 #hero-text-heading {
     font-weight: 600;
     letter-spacing: 0.125rem;
-    font-size:3.2rem;
-    text-align:center;
-    padding-top:0.5rem;    
+    font-size: 3.2rem;
+    text-align: center;
+    padding-top: 0.5rem;
 }
 
 #hero-text-sub {
-    padding-top:0;
-    text-align:center;
-    font-size:1.2rem;    
+    padding-top: 0;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .carousel-item {
-    height:min-content;
-    position:relative;
+    height: min-content;
+    position: relative;
 }
 
 .carousel-item:after {
-    display:block;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    position:absolute;
-    content:"";
-    background-color:#fdfdfd49;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    background-color: rgba(253, 253, 253, 0.29);
 }
 
 .carousel.pointer-event {
-    padding:0px;
+    padding: 0px;
 }
 
 
-.carousel-caption h5, .carousel-caption p {
-    color:var(--md-brown);
+.carousel-caption h5,
+.carousel-caption p {
+    color: var(--md-brown);
     font-weight: 600;
     font-size: 0.8rem;
     letter-spacing: 0.06rem;
     text-transform: uppercase;
-             
-}      
+
+}
 
 
-/*..............................................................................................................Body */
+/*............................................................................Body */
 
 .container-pattern {
-    background-image:url(../images/plant-pattern.jpg);
+    background-image: url("../images/plant-pattern.jpg");
     background-size: cover;
-    height:min-content; 
+    height: min-content;
     background-repeat: no-repeat;
     overflow: hidden;
-    width:100%;
+    width: 100%;
     padding-top: 40px;
-    padding-bottom:40px;        
+    padding-bottom: 40px;
 }
 
 .container-benefits {
     height: min-content;
-    width:100%;
+    width: 100%;
     padding-top: 20px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .contrast-back {
     background-color: rgba(255, 255, 255, 0.9);
-    width:inherit;
+    width: inherit;
     height: initial;
-    margin:0px;
-    padding:3%;
+    margin: 0px;
+    padding: 3%;
 }
 
 
 
 .head-line {
-    background-color:var(--main-green);
-    height:2px;
-    width:20%;
+    background-color: var(--main-green);
+    height: 2px;
+    width: 20%;
 }
 
 .body-content {
     margin: 10px;
     padding: 40px 5px 10px 5px;
-    letter-spacing:0.018rem;
+    letter-spacing: 0.018rem;
     text-align: center;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 .about {
-    padding:2px;
+    padding: 2px;
     height: min-content;
     color: var(--md-brown);
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 0.06rem;
-    font-size:1.4rem;
-    padding-bottom:80px;    
+    font-size: 1.4rem;
+    padding-bottom: 80px;
 }
 
-img.about-img{
+img.about-img {
     width: 100%;
     height: auto;
     background-size: contain;
     border-radius: 2%;
-    transition:1s ease-in-out;
-    padding-top:50px;    
-}  
+    transition: 1s ease-in-out;
+    padding-top: 50px;
+}
 
 img.about-img:hover {
-    transform:scale(1.03);
+    transform: scale(1.03);
 }
 
 .content-heading {
-    font-size:2.5rem;
-    font-weight:600;
-    padding-top:30px;
-    letter-spacing:0.125rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 30px;
+    letter-spacing: 0.125rem;
 }
 
 .sub-heading {
@@ -274,27 +277,29 @@ img.about-img:hover {
     font-size: 1.6rem;
     letter-spacing: 0.4rem;
     margin-bottom: 17px;
-}  
+}
 
 .sub-heading-green {
-    color:var(--main-green);
+    color: var(--main-green);
 }
 
 
-div .benefits-text h3, h5, h4 {
-    color:var(--main-green);
-    font-weight:400;
+div .benefits-text h3,
+h5,
+h4 {
+    color: var(--main-green);
+    font-weight: 400;
     letter-spacing: 0.125rem;
 }
 
 div .benefits-text h4 {
-    padding:0px;
+    padding: 0px;
 }
 
-div .benefits-text p { 
-    color:var(--main-green);
-    padding:25px 5px;
-    font-weight:400;
+div .benefits-text p {
+    color: var(--main-green);
+    padding: 25px 5px;
+    font-weight: 400;
     letter-spacing: 0.06rem;
 }
 
@@ -308,18 +313,19 @@ div .benefits-text p {
     text-decoration: none;
 }
 
-div .offer-text h3, h4 {
-    color:var(--dk-brown);
-    font-weight:400;
+div .offer-text h3,
+h4 {
+    color: var(--dk-brown);
+    font-weight: 400;
     letter-spacing: 0.125rem;
-}    
+}
 
-div .offer-text p { 
-    color:var(--dk-brown);
-    padding:5px 5px;
-    font-weight:500;
+div .offer-text p {
+    color: var(--dk-brown);
+    padding: 5px 5px;
+    font-weight: 500;
     letter-spacing: 0.06rem;
-}    
+}
 
 .big-button {
     color: var(--off-white);
@@ -328,7 +334,7 @@ div .offer-text p {
     background-color: var(--main-green);
     border-color: var(--main-green);
     border: 0.05rem solid;
-    margin:10px;
+    margin: 10px;
 }
 
 .big-button:hover {
@@ -340,23 +346,23 @@ div .offer-text p {
     color: var(--main-green);
     padding: 1rem 1rem;
     text-decoration: none;
-    background-color:var(--off-white);
+    background-color: var(--off-white);
     border-color: var(--off-white);
     border: 0.05rem solid;
-    margin:10px;
+    margin: 10px;
 }
 
 footer .mid-button:hover {
     background-color: var(--main-green);
     color: var(--off-white);
-}    
+}
 
 .testimonal-text p {
     color: var(--main-green);
-    padding:50px 5px 10px 20px;
+    padding: 50px 5px 10px 20px;
     font-size: 1rem;
     font-family: 'Comic Neue', cursive;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 .right-text p {
@@ -364,70 +370,73 @@ footer .mid-button:hover {
 }
 
 .img-container {
-    max-height:100vh;
-    max-width:100vh;
+    max-height: 100vh;
+    max-width: 100vh;
 }
+
 img.testimonal-images {
-    max-width:100%;
-    height:auto;
-    border-radius:50%;
-    background-size:contain;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-size: contain;
     transition: 0.5s;
-    margin-top:10px;
-    margin-bottom:20px;    
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 img.testimonal-images:hover {
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
 
 .col-5.image {
-    padding-right:15px;
-    padding-left:8px;
-    text-align:right;
+    padding-right: 15px;
+    padding-left: 8px;
+    text-align: right;
 }
 
 .row.testimonal-text {
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
-/*..................................................................................................Form.......*/
+/*....................................................................Form.......*/
 .container-pattern-form {
-       
-    background-image:url(../images/plant-pattern.jpg);
+
+    background-image: url("../images/plant-pattern.jpg");
     background-size: cover;
-    height:1800px; 
+    height: 1800px;
     background-repeat: no-repeat;
     overflow: hidden;
-    width:100%;
-    margin:0px;       
-}        
+    width: 100%;
+    margin: 0px;
+}
 
 .request-form {
     display: block;
     border-width: 1px;
     border-color: var(--dk-brown);
-    padding-top:5%;
+    padding-top: 5%;
     padding-bottom: 2%;
-} 
+}
+
 div h5 small {
     font-style: italic;
 }
 
 .jumbotron-form {
-    background-color: rgb(235 235 235 / 0.9);
+    background-color: rgba(235 235 235 / 0.9);
     height: min-content;
     width: 75%;
-    position: absolute; 
+    position: absolute;
     top: 5%;
-    left:12.5%;
-    border-radius:2%;
-    bottom:10%;
+    left: 12.5%;
+    border-radius: 2%;
+    bottom: 10%;
 }
 
-.fit-center .hero-text, h2 {
- padding-left:15px;
- padding-right:15px;
+.fit-center .hero-text,
+h2 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .form-header {
@@ -438,16 +447,16 @@ div h5 small {
 }
 
 .text-request {
-   padding-left:10%;
-   padding-right:10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .pref-contact-text {
-    padding:10px;
+    padding: 10px;
 }
 
 h5 .pref-contact-text {
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 form h5 {
@@ -455,61 +464,62 @@ form h5 {
 }
 
 label {
-    padding-right:5px;    
+    padding-right: 5px;
 }
 
 textarea {
-    width:100%;
-}   
+    width: 100%;
+}
 
 footer {
-    margin-top:3px;
-    font-size:1rem;
+    margin-top: 3px;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--off-white);
     letter-spacing: 0.06rem;
 }
 
 .footer-style {
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 footer h5 {
-    font-size:1.5rem;
-    color:var(--off-white);
-    padding-bottom:15px;
+    font-size: 1.5rem;
+    color: var(--off-white);
+    padding-bottom: 15px;
     padding-top: 30px;
 }
 
 footer p {
     font-size: 1.3rem;
     font-weight: 300;
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
 }
 
 footer.row {
     min-height: 40px;
     padding-bottom: 0px;
-    margin:10px;
+    margin: 10px;
     padding-top: 20px;
 }
 
-.f-social, .f-social a  {
+.f-social,
+.f-social a {
     letter-spacing: 0.44rem;
     color: var(--off-white);
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .footer-style .f-social a:hover {
-    color: var(--main-green);    
+    color: var(--main-green);
 }
 
 .button-padding {
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
 }
 
 .footer-style .mid-button {
-    color:var(--main-green);
+    color: var(--main-green);
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------Media Queries---*/
@@ -520,28 +530,31 @@ footer.row {
     }
 
     .logo {
-    font-size:2.00rem;
-    } 
-    .carousel-caption h5, .carousel-caption p {
-    font-size: 1.3rem;
+        font-size: 2.00rem;
+    }
+
+    .carousel-caption h5,
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
 }
 
 
 @media(min-width: 728px) {
     .nav-bar-item {
-        padding-right:13px;
-        padding-left:13px;
+        padding-right: 13px;
+        padding-left: 13px;
         font-size: 1.16rem;
         text-align: right;
     }
-    
+
     .hero-image {
         background: url("../images/plant-hero-edit.jpg");
         height: 550px;
         width: 100%;
         background-size: cover;
         background-position: center;
-        position: relative; 
+        position: relative;
         background-repeat: no-repeat;
         overflow: hidden;
     }
@@ -549,87 +562,91 @@ footer.row {
     #hero-text-heading {
         font-weight: 600;
         letter-spacing: 0.125rem;
-        font-size:5rem;
-        padding-top:15rem;
-        text-align:left;
+        font-size: 5rem;
+        padding-top: 15rem;
+        text-align: left;
     }
 
     #hero-text-sub {
-        text-align:left;
+        text-align: left;
         padding-right: 1.5rem;
-        padding-left:1.5rem;
-        font-size:2rem;
-    }      
+        padding-left: 1.5rem;
+        font-size: 2rem;
+    }
 
     .body-content {
-        padding: 50px;    
-    }       
+        padding: 50px;
+    }
 
     div.col-sm-4 {
-        padding:0px;        
+        padding: 0px;
     }
-    
+
     div.col-4 {
         padding-left: 17px;
     }
+
     div.col-8 {
         padding-right: 0px;
     }
-    
+
     .about {
         position: relative;
-    } 
+    }
 
     .container-about {
-        position:absolute;
-        top:50%;
+        position: absolute;
+        top: 50%;
     }
-       
+
     .container-benefits {
-        padding-top:20px;
-        padding-bottom:20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .container-pattern {
-        padding-top:80px;
-        padding-bottom:80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
-    .carousel-caption h5, .carousel-caption p {    
-    font-size: 3rem;
-    padding-bottom:2%;          
-    }      
+    .carousel-caption h5,
+    .carousel-caption p {
+        font-size: 3rem;
+        padding-bottom: 2%;
+    }
 
     .carousel-caption p {
-        padding-bottom:15%;
+        padding-bottom: 15%;
     }
 
     .container-pattern-form {
-        padding-top:40px;
-        padding-bottom:40px;
-    }        
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     .request-form {
         display: block;
         border-width: 1px;
         border-color: black;
         padding-top: 2%;
-    } 
-    
+    }
+
     div h5 small {
         font-style: italic;
     }
 
-    .jumbotron-form {        
+    .jumbotron-form {
         position: absolute;
         width: 70%;
-        top:12.5%;
-        left:15%;
+        top: 12.5%;
+        left: 15%;
     }
 
-    .fit-center .hero-text, h2, p {
-        padding-left:15px;
-        padding-right:15px;
+    .fit-center .hero-text,
+    h2,
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -639,43 +656,46 @@ footer.row {
 
     textarea {
         width: 90%;
-    }  
+    }
 }
 
 @media(min-width: 1024px) {
 
     .nav-bar-item {
-        padding-right:13px;
-        padding-left:13px;
+        padding-right: 13px;
+        padding-left: 13px;
         font-size: 1.75rem;
         text-align: right;
     }
-    
+
     .logo {
-        font-size:2.5rem;
+        font-size: 2.5rem;
     }
+
     div.col-sm-4 {
-        padding:0px;        
+        padding: 0px;
     }
 
     .container-about {
-        padding-top:90px;        
-    }
-    .about-img-container {
-        padding-top:80px;
+        padding-top: 90px;
     }
 
-    .head-line{
+    .about-img-container {
+        padding-top: 80px;
+    }
+
+    .head-line {
         margin-top: 40px;
     }
 
     .about-sub-heading {
         padding-top: 40px;
     }
-    
+
     div.col-4 {
         padding-left: 17px;
     }
+
     div.col-8 {
         padding-right: 0px;
     }
@@ -683,14 +703,18 @@ footer.row {
     .testimonal-text p {
         padding: 10px 10px;
         margin: 1px;
-        font-size:2rem;
+        font-size: 2rem;
     }
 }
 
-    
+
 @media (min-width: 1200px) {
 
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
         max-width: 1500px;
     }
 }
