@@ -8,16 +8,17 @@
 
 *** 
 
-## About 
- Plant Factory is a business concept created for my MS1 project with Code Institute.
+## About  - 
+
+Plant Factory is a business concept created for my MS1 project with Code Institute.
  
    
- Plant Factory is a business dedicated to bringing postive change to workplaces in the form of adding more natural elements. 
- The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
- Plant Factory offers both bespoke plant feature and potted plants/trees of a range of sizes for office place.  Plant factory will visit the business to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures. 
+Plant Factory is a business dedicated to bringing postive change to workplaces in the form of adding more natural elements. 
+The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
+Plant Factory offers both bespoke plant feature and potted plants/trees of a range of sizes for office place.  Plant factory will visit the business to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures. 
  
  
- Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have a contact form so that new and existing clients can reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the business to grow.  As the business grows the website can be adapted to the growing business and additional features implemented. 
+Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have a contact form so that new and existing clients can reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the business to grow.  As the business grows the website can be adapted to the growing business and additional features implemented. 
 
 ***
 
@@ -35,7 +36,7 @@
 *** 
 
 ## User Experience (UX)
-### User Stories
+### User Stories - Strategy 
 
 #### Reasons a user may visit the site
 * A user looking for office plants to add to the office or workspace or business.
@@ -45,6 +46,12 @@
 * A user looking to see if we have done previous work.
 * A user showing the site to other people within their business.
 
+#### Reasons for website
+* Increase clients
+* Showcase work
+* Provide way for new and existing clients to contact us.  
+
+## Scope
 #### What a user may expect
 * Easy to navigate website 
 * Good presentation and visually appealing regardless of screen size.
@@ -52,11 +59,13 @@
 * Information about what Plant Factory does.
 * A way to get in contact with Plant Factory.
 
-#### What a user may want
+#### What a user may want *
 * To be able to find links to social media pages.
 * To see examples of previous work carried out.
 * To be able to chat with someone online.
 * To be able to buy plants online.
+* How it works - from start to finish 
+
 
 #### As a developer / business I expect
 * To provide information about Plant Factory.
@@ -66,11 +75,25 @@
 * To showcase customer testimonies and expect customer to read them.
 * For clients to be invoked into contacting us for a quote. 
 
+*Note  that not all -What the user may wants- will be implamented at this step in the buisness, additional features may be added as the scope changes and the buisness grows. 
+
+
+### Structure
+The website will consist of 3 seperate seperate pages 
+* A home page with an about, benefits of plants and what we offer.  
+* A testimonals page with testimonies and pictures of the work with have previously carried out.  
+* A page with a form to contact the buisness. 
+
 ***
+
+
 
 ## Designs
 
-### Colour
+### Surface
+
+
+#### Colour
 
 I have used rich green as my main colour theme for the website. This has been paired with an offwhite colour to ensure good contrast. This will help with Accessibility for visually impaired users. 
 This goes with the theme of the website and the business.  The business moto is making offices greener.  
@@ -94,7 +117,7 @@ I initially used https://mycolor.space/ to help me narrow down my design choice 
 
 I have purposely not used any red on the website as this may cause issued for people with a red/green colour defiency.
 
-### Typography 
+#### Typography 
 
 I have used https://fonts.google.com/ for my fonts.  I have chosen to use Yanone Kaffeesatz as my main font throughout the website.  This is a fairly modern looking style that is easy to read at various sizes.  To increase the readability, I have increased the letter spacing in most cases.  
 For the use in the headers, I have increased the letter spacing further to make the headings more defined and stand out. I have also used a varity of font weights to make some sections easier to read and stand out. 
@@ -105,7 +128,7 @@ I imported the following code into the top of my style.css file
 
         @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;1,400&display=swap');
 
-### Call to Action
+#### Call to Action
 
 I made all my call to actions as easy to see as possible. 
 
@@ -114,27 +137,6 @@ I made all my call to actions as easy to see as possible.
 * Submit link on the form and the Contact Us link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
 * The Request a Quote in the main body of index.html and the Contact us in the Footer which takes them to the form. 
 * The social links will send the user to the companys social media pages.  They also change colour when hovered over.
-
-### Layout 
-
-* I have used responsive design when creating the website as the page is expanded from a mobile some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
-* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
-* I have also used a max-width, this is to ensure the content still looks good.  As this is a Business-to-Business company the decisions may not be made by an individual but as a collective.  This means that meetings may take place and the site presented on a larger screen.  The max-width keeps the website looking neat and professional. 
-* I have used containers paddings and margins to make sure that the content is not too close together. 
-
-#### Homepage Wire Frame 
-
-![Homepage Wireframe](README-files/homepage.png)
-
-#### Testimonial Wireframe
-
-![Testimonial Wireframe](README-files/testimonials.png)
-
-#### Form Wireframe 
-
-![Form Wireframe](README-files/form.png)
-
-***
 
 ### Imagery   
 
@@ -159,11 +161,39 @@ I also used a pattern background of leaves for the form page and the What we off
 Should the hero or pattern image fail there is a background color set so that the colours of the text can still be read. 
 The images in body of the website all have alt attributes.  This is to ensure that screen readers can describe the image to the user or if the image fails to load.  This is also to help with ranking of the website. 
 
+
+### Skeleton 
+
+### Layout 
+
+* I have used responsive design when creating the website as the page is expanded from a mobile some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
+* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
+* I have also used a max-width, this is to ensure the content still looks good.  As this is a Business-to-Business company the decisions may not be made by an individual but as a collective.  This means that meetings may take place and the site presented on a larger screen.  The max-width keeps the website looking neat and professional. 
+* I have used containers paddings and margins to make sure that the content is not too close together. 
+
+#### Homepage Wire Frame 
+
+![Homepage Wireframe](README-files/homepage.png)
+
+#### Testimonial Wireframe
+
+![Testimonial Wireframe](README-files/testimonials.png)
+
+#### Form Wireframe 
+
+![Form Wireframe](README-files/form.png)
+ 
+
+***
+
+
 ### Mockup
 
 ![Mock ups](README-files/mock-ups.png)
 
 ***
+
+
 
 ## Features
 
@@ -245,12 +275,15 @@ Design
 * [Google fonts](https://fonts.google.com/) - For styling the typography
 * [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
 * [Font Awesome](https://fontawesome.com/) - for social media icons
+* [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
+* [Tiny PNG](https://tinypng.com/) – changing some images to smaller sizes
 
 Testing 
 * [HTML Validator](https://validator.w3.org/) - Testing validity of HTML
 * [CSS Validator](https://validator.w3.org/) -Testing validity of CSS
 * [IE NetREnderer](https://netrenderer.com/index.php)
-* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature 
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature
+* [Wave](https://wave.webaim.org/) - Accessibility Testing 
 * DEV Tools - Lighthouse
 
 ***
@@ -276,7 +309,8 @@ A few warnings were displayed when using the validator this is because of the va
 I sent the project to a few of my peers in the slack community and to a few friends within the industry.  I had them check to ensure all links were working and the website was responsive at different screen resolutions.
 One of my friends viewed the project in simplified mode and commented that the website was still easy to navigate and displayed clearly. 
 
-A few bugs were identified prior to deployment.  The form was being cut off the bottom on very small screen sizes and the links to social media were not working.  I FIXED these prior to deployment.  By making sure the web addresses were correct and by resizing the form.
+
+I wanted to carry out Accessibility Testing on the website.  I used [Wave](https://wave.webaim.org/) This was to check to make sure the website the website would work well with screen readers.  I also manually checked the web site by increased the REM settings on my browser and making sure that the content was still visable.  This highlighted a BUG which was FIXED prior to deployment. 
 
     
 ### Browser Compatibility
@@ -318,6 +352,21 @@ Max-width set so if the site is being shown in a meeting or on a larger screen t
 
 ## Deployment 
 
+### Adding and Commiting files
+
+To add files to the repository take the following steps
+
+In the command line type -
+        git add .  
+        git commit -m "This is being commited"
+        git push
+
+For adding use .  - to add all files or to add a single the pathway to the file eg .index.html  or assets/css/style.css
+For committing make sure your comments are clear about what changes have been made
+Pushing will send your work to the repository
+
+### Deployment 
+
 The project was deployed with the following steps
 
 * Logged into git hub
@@ -327,6 +376,7 @@ The project was deployed with the following steps
 * The page will automatically refresh, and a link displaced.  It may take some time for the link to show the website.
 * If the page will not load go down to "template" under the "source" and select a template. 
 * Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
 
 ### Forking
 
@@ -359,8 +409,8 @@ Making a Local Clone
 [Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
 
 ## Known Bugs 
-* There was an issue with testimonal when the content was view on a phone in landscape mode- FIX I changed the layout of the page so the content would render better. 
-* The text on the carousel takes a moment to snap to uppercase.  This is likely because of the delay in reaching the Bootstrap style sheet. FIX written the follow code directly into my style.css 
+* BUG -There was an issue with testimonal when the content was view on a phone in landscape mode. FIX - I changed the layout of the page so the content would render better. 
+* BUG- The text on the carousel takes a moment to snap to uppercase.  This is likely because of the delay in reaching the Bootstrap style sheet. FIX -Written the follow code directly into my style.css 
          
          .carousel-caption h5, .carousel-caption p {
         color:var(--md-brown);
@@ -370,8 +420,8 @@ Making a Local Clone
         text-transform: uppercase;
          }
 
-* When the rem size is increased on a user screen the text on the hero image is lost and the form is cut off form the bottom.  
-
+* BUG- When the rem size is increased on a user screen the text on the hero image is lost and the form is cut off form the bottom.  FIX - Changed the code so that the container-pattern-form was set to min-content.  I changed the position of the jumbotron.  
+* BUG The links to social media were not working. FIX the URL to the website had a typo. 
 ***
 
 ## Acknowledgements
