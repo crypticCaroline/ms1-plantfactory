@@ -5,6 +5,8 @@
     --off-white: #fdfdfd;
     --dk-brown: #0c0606;
     --md-brown: #2a2020;
+
+    --max-width: 1500px;
 }
 
 html,
@@ -73,10 +75,9 @@ nav {
 }
 
 .nav-bar-container {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     text-align: right;
-    padding-right: 13px;
 }
 
 nav a {
@@ -86,14 +87,15 @@ nav a {
 }
 
 .logo a:hover {
-    color: black;
+    color: var(--off-white);
     text-decoration: none;
     background-color: rgba(11, 114, 11, 0.52);
-    border-radius: 2px;
+    border-radius: 6px;
+    padding: 5px;
 }
 
 nav a:hover {
-    color: var(--md-brown);
+    color: var(--off-white);
     text-decoration: none;
     background-color: rgba(11, 114, 11, 0.52);
     border-radius: 2px;
@@ -107,9 +109,9 @@ nav a:hover {
 
 
 .nav-bar-item {
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 1rem;
+    padding-right: 2.25px;
+    padding-left: 2.25px;
+    font-size: 1.15rem;
     text-align: center;
 }
 
@@ -143,7 +145,7 @@ nav a:hover {
 
 
 div .jumbotron {
-    background-color: rgba(235 235 235 / 0.05);
+    background-color: rgba(235, 235, 235, 0.05);
     position: absolute;
     background-size: cover;
     height: 400px;
@@ -186,9 +188,9 @@ div .jumbotron {
 }
 
 
-.carousel-caption h5,
-.carousel-caption p {
-    color: var(--md-brown);
+.carousel-caption h2,
+.carousel-caption h3 {
+    color: black;
     font-weight: 600;
     font-size: 0.8rem;
     letter-spacing: 0.06rem;
@@ -269,11 +271,11 @@ img.about-img:hover {
 .content-heading {
     font-size: 2.5rem;
     font-weight: 600;
-    padding-top: 30px;
+    padding-top: 50px;
     letter-spacing: 0.125rem;
 }
 
-.sub-heading {
+h4 .sub-heading {
     color: var(--md-brown);
     font-weight: 700;
     font-size: 1.6rem;
@@ -283,24 +285,26 @@ img.about-img:hover {
 
 .sub-heading-green {
     color: var(--main-green);
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 17px;
 }
 
 
-.benefits-text h3,
-h5,
-h4 {
-    color: var(--main-green);
-    font-weight: 400;
-    letter-spacing: 0.125rem;
-}
+
 
 .benefits-text h4 {
-    padding: 0px;
+    color: var(--md-brown);
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 17px;
 }
 
 .benefits-text p {
     color: var(--main-green);
-    padding: 25px 5px;
+    padding: 5px 5px 45px 5px;
     font-weight: 400;
     letter-spacing: 0.06rem;
 }
@@ -315,8 +319,7 @@ h4 {
     text-decoration: none;
 }
 
-.offer-text h3,
-h4 {
+.offer-text h3 {
     color: var(--dk-brown);
     font-weight: 400;
     letter-spacing: 0.125rem;
@@ -426,7 +429,7 @@ h5 small {
 }
 
 .jumbotron-form {
-    background-color: rgba(235 235 235 / 0.9);
+    background-color: rgba(235, 235, 235, 0.9);
     height: min-content;
     width: 75%;
     position: absolute;
@@ -458,11 +461,11 @@ h2 {
     padding: 10px;
 }
 
-h5 .pref-contact-text {
+h3 .pref-contact-text {
     padding-top: 10px;
 }
 
-form h5 {
+form h3 {
     font-size: 1.5rem;
 }
 
@@ -537,8 +540,8 @@ footer.row {
         font-size: 2.00rem;
     }
 
-    .carousel-caption h5,
-    .carousel-caption p {
+    .carousel-caption h2,
+    .carousel-caption h3 {
         font-size: 1.3rem;
     }
 }
@@ -546,10 +549,14 @@ footer.row {
 
 @media(min-width: 728px) {
     .nav-bar-item {
-        padding-right: 13px;
-        padding-left: 13px;
+        padding-right: 10px;
+        padding-left: 10px;
         font-size: 1.16rem;
         text-align: right;
+    }
+    .nav-bar-container {
+        padding-top: 17px;
+        padding-bottom: 15px;
     }
 
     .hero-image {
@@ -613,13 +620,13 @@ footer.row {
         padding-bottom: 80px;
     }
 
-    .carousel-caption h5,
-    .carousel-caption p {
+    .carousel-caption h2,
+    .carousel-caption h3 {
         font-size: 3rem;
         padding-bottom: 2%;
     }
 
-    .carousel-caption p {
+    .carousel-caption h3 {
         padding-bottom: 15%;
     }
 
@@ -663,7 +670,7 @@ footer.row {
     }
 
     textarea {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -724,14 +731,14 @@ footer.row {
     .container-md,
     .container-sm,
     .container-xl {
-        max-width: 1500px;
+        max-width: var(--max-width);
     }
 }
 
 @media (min-width: 1450px) {
 
     .container-fluid {
-        max-width: 1500px;
+        max-width: var(--max-width);
     }
 }
 

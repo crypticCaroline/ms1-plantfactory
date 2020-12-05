@@ -112,7 +112,7 @@ I made all my call to actions as easy to see as possible.
 * The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
 * Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
 * Submit link on the form and the Contact Us link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
-* The Request a Quote in the main body of index.html and the Contact us in the Footer also opens a new tab - I have done this so that if the user if still reading something on the main page they will not lose their place on the page. 
+* The Request a Quote in the main body of index.html and the Contact us in the Footer which takes them to the form. 
 * The social links will send the user to the companys social media pages.  They also change colour when hovered over.
 
 ### Layout 
@@ -259,7 +259,7 @@ Testing
 
 * Nav links work and the user is directed to the correct page of the site. 
 * Logo takes the user back to the main page.
-* Contact us and Request a Quote opens new tab and takes user to Form.
+* Contact us and Request a Quote opens links to Form.
 * Hovers over links are clear and not default blue.
 * Social links works. 
     
