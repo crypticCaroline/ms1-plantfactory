@@ -146,7 +146,7 @@ nav a:hover {
 
 div .jumbotron {
     background-color: rgba(235, 235, 235, 0.05);
-    position: absolute;
+    
     background-size: cover;
     height: 400px;
     width: 100%;
@@ -409,11 +409,16 @@ img.testimonal-images:hover {
 
     background-image: url("../images/plant-pattern.jpg");
     background-size: cover;
-    height: 1800px;
+    height: min-content;
     background-repeat: no-repeat;
     overflow: hidden;
     width: 100%;
-    margin: 0px;
+    padding: 20%;
+}
+
+div .container-pattern-form {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .request-form {
@@ -431,12 +436,9 @@ h5 small {
 .jumbotron-form {
     background-color: rgba(235, 235, 235, 0.9);
     height: min-content;
-    width: 75%;
-    position: absolute;
-    top: 5%;
-    left: 12.5%;
+    width: 100%;
     border-radius: 2%;
-    bottom: 10%;
+    
 }
 
 .fit-center .hero-text,
@@ -473,8 +475,10 @@ label {
     padding-right: 5px;
 }
 
-textarea {
+div textarea  {
     width: 100%;
+    padding-bottom:50px;
+    margin-top:30px;
 }
 
 /*----------------------------------Footer*/
@@ -615,11 +619,6 @@ footer.row {
         padding-bottom: 20px;
     }
 
-    .container-pattern {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-
     .carousel-caption h2,
     .carousel-caption h3 {
         font-size: 3rem;
@@ -634,11 +633,6 @@ footer.row {
         padding: 60px 5px 20px 0px;
     }
 
-    .container-pattern-form {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
     .request-form {
         display: block;
         border-width: 1px;
@@ -648,13 +642,6 @@ footer.row {
 
     h5 small {
         font-style: italic;
-    }
-
-    .jumbotron-form {
-        position: absolute;
-        width: 70%;
-        top: 12.5%;
-        left: 15%;
     }
 
     .fit-center .hero-text,
