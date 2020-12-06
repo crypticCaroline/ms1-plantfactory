@@ -452,6 +452,7 @@ Making a Local Clone
 * Rob Beaney - for testing and reporting any bugs or issues, helping me to trouble shoot an issue with positioning. 
 * Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
 * Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
+* Megan Turner - for proof reading my README.md.
 * Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonial landscape bug, also for pointing out the social links were not working. 
 
 * [Bootstrap](https://mdbootstrap.com/)  - Carousel used and customised for use in the project. 

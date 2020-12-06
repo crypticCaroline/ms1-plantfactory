@@ -720,7 +720,6 @@ footer.row {
     }
 }
 
-
 @media (min-width: 1200px) {
 
     .container,
@@ -740,7 +739,6 @@ footer.row {
 }
 
 @media (min-width: 2000px) {
-
     .container-pattern-form {
         min-height: 100vh;
     }
