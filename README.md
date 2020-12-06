@@ -59,7 +59,7 @@ Plant Factory would needs to have a website to tell users a little bit about the
 * Information about what Plant Factory does.
 * A way to get in contact with Plant Factory.
 
-#### What a user may want *
+#### What a user may want 
 * To be able to find links to social media pages.
 * To see examples of previous work carried out.
 * To be able to chat with someone online.
