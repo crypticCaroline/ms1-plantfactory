@@ -8,7 +8,7 @@
 
 *** 
 
-## About  - 
+## About  
 
 Plant Factory is a business concept created for my MS1 project with Code Institute.
  
@@ -77,11 +77,14 @@ Plant Factory would needs to have a website to tell users a little bit about the
 
 *Note that not all -What the user may wants- will be implamentedimplemented at this step in the buisnessbusiness., Aadditional features may be added as the scope mandate changes and the buisnessbusiness grows.
 
-### Structure
+## Structure
 The website will consist of 3 separate pages
 * A home page with “About”, “Benefits of plants” and “What we offer” sections. 
 * A “Testimonials” page with testimonies and pictures of the work we have previously done.  
 * A page with a form to contact the business. 
+
+
+
 
 ***
 
@@ -89,7 +92,7 @@ The website will consist of 3 separate pages
 
 ## Designs
 
-### Surface
+## Surface
 
 
 #### Colour
@@ -170,7 +173,11 @@ I also used a pattern background of leaves for the "Contact us" page and the "Wh
 Should the hero or pattern image fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
 
 
-### Skeleton 
+***
+
+
+
+## Skeleton 
 
 
 ### Layout 
@@ -251,7 +258,7 @@ I have included descriptions, author, and keywords into the head element to incr
 * I have staggered the testimonies on all devices.
  
 
-##### Form 
+###### Form 
 * The “Form” page consists of the form and universal features only.
 * The form includes fields for the user to enter their business name and contact details using - input type="text"
 * The email input field requires the answer to be an email
@@ -365,6 +372,7 @@ Easy to navigate to and from the main page. Testimonials clearly seen in the nav
 * ###### A user showing the site to other people within their business.   
 Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
+
 *** 
 
 ## Deployment 
@@ -441,6 +449,8 @@ Making a Local Clone
 
 * BUG- When the rem size is increased on a users screen the text on the hero image is lost and the form is cut off from the bottom.  FIX - Changed the code so that the container-pattern-form was set to min-content.  I changed the position of the jumbotron.  
 * BUG The links to social media were not working. FIX the URL to the website had a typo. 
+
+
 ***
 
 ## Acknowledgements
@@ -470,6 +480,8 @@ Making a Local Clone
 * [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
 * [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
 * [Tiny PNG](https://tinypng.com/) – changing some images to smaller sizes
+
+
 
 *** 
 
