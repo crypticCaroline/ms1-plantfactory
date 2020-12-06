@@ -31,7 +31,6 @@ body {
     background-color: var(--off-white);
 }
 
-
 .bg-color-what {
     background-color: #f1fdf4;
 }
@@ -106,7 +105,6 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-
 .nav-bar-item {
     padding-right: 2.25px;
     padding-left: 2.25px;
@@ -142,7 +140,6 @@ nav a:hover {
     overflow: hidden;
 }
 
-
 div .jumbotron {
     background-color: rgba(235, 235, 235, 0.05);
     
@@ -150,7 +147,6 @@ div .jumbotron {
     height: 400px;
     width: 100%;
 }
-
 
 #hero-text-heading {
     font-weight: 600;
@@ -189,7 +185,6 @@ div .jumbotron {
 .carousel.pointer-event {
     padding: 0px;
 }
-
 
 .carousel-caption h2,
 .carousel-caption h3 {
@@ -236,8 +231,6 @@ div .jumbotron {
     margin: 0px;
     padding: 3%;
 }
-
-
 
 .head-line {
     background-color: var(--main-green);
@@ -301,9 +294,6 @@ h4 .sub-heading {
     margin-bottom: 17px;
 }
 
-
-
-
 .benefits-text h4 {
     color: var(--md-brown);
     font-weight: 700;
@@ -365,11 +355,6 @@ h4 .sub-heading {
     border-color: var(--off-white);
     border: 0.05rem solid;
     margin: 10px;
-}
-
-footer .mid-button:hover {
-    background-color: var(--main-green);
-    color: var(--off-white);
 }
 
 .testimonal-text p {
@@ -447,8 +432,7 @@ h5 small {
     background-color: rgba(235, 235, 235, 0.9);
     height: min-content;
     width: 100%;
-    border-radius: 2%;
-    
+    border-radius: 2%;    
 }
 
 .fit-center .hero-text,
@@ -524,6 +508,11 @@ footer.row {
     padding-top: 20px;
 }
 
+footer .mid-button:hover {
+    background-color: var(--main-green);
+    color: var(--off-white);
+}
+
 .f-social,
 .f-social a {
     letter-spacing: 0.44rem;
@@ -559,7 +548,6 @@ footer.row {
         font-size: 1.3rem;
     }
 }
-
 
 @media(min-width: 728px) {
     .nav-bar-item {
@@ -657,7 +645,6 @@ footer.row {
         padding-left: 15px;
         padding-right: 15px;
     }
-
 
     .text-label {
         text-align: right;
