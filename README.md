@@ -13,12 +13,10 @@
 Plant Factory is a business concept created for my MS1 project with Code Institute.
  
    
-Plant Factory is a business dedicated to bringing postive change to workplaces in the form of adding more natural elements. 
-The vast majority of workspaces within the UK do not have any access to natural elements within their workplace.  Having natural elements such as plants can boost postive wellbeing, increase productivity and creat a more appealling place to work. 
-Plant Factory offers both bespoke plant feature and potted plants/trees of a range of sizes for office place.  Plant factory will visit the business to assess the sizes needed.  Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. If a bespoke client Plant Factory will take care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures. 
- 
- 
-Plant Factory would need to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work.  Plant Factory will need to have a contact form so that new and existing clients can reach them easily.   Plant Factory is a small company with a small range of website needs, there is scope for the business to grow.  As the business grows the website can be adapted to the growing business and additional features implemented. 
+Plant Factory is a business dedicated to bringing positive change to workplaces in the form of adding more natural elements. The vast majority of workspaces within the UK do not have access to natural elements within their workplace. Having natural elements such as plants can boost positive wellbeing, increase productivity and create a more appealing place to work. Plant Factory offers both bespoke plant features and potted plants/trees of a range of sizes for the workplace. Plant factory will visit the business to assess the sizes needed. Currently they do not offer plants to be bought online as they are dealing in larger quantities / larger plants suited to businesses. For a bespoke client Plant Factory are taking care of the design and cater for individual requirements. These include large built-in plant walls, islands with trees in the middle and hanging fixtures.
+
+
+Plant Factory would needs to have a website to tell users a little bit about the business, show potential clients what services they offer and showcase some of their current or existing work. Plant Factory will needs to have a contact form so that new and existing clients can reach them easily. Plant Factory is a small company with a small range of website needs, there is scope for the business to grow. As the business grows the website can be adapted to the growing business and additional features implemented.
 
 ***
 
@@ -36,9 +34,11 @@ Plant Factory would need to have a website to tell users a little bit about the 
 *** 
 
 ## User Experience (UX)
-### User Stories - Strategy 
 
-#### Reasons a user may visit the site
+## Strategy
+### User Stories  
+
+#### Reasons a user may visit the website
 * A user looking for office plants to add to the office or workspace or business.
 * A user looking to install a plant feature.
 * A user who already has a quotation but wants to get in contact.
@@ -46,16 +46,16 @@ Plant Factory would need to have a website to tell users a little bit about the 
 * A user looking to see if we have done previous work.
 * A user showing the site to other people within their business.
 
-#### Reasons for website
+#### Reasons for the website
 * Increase clients
 * Showcase work
-* Provide way for new and existing clients to contact us.  
+* Provide a way for new and existing clients to contact us.  
 
 ## Scope
 #### What a user may expect
 * Easy to navigate website 
 * Good presentation and visually appealing regardless of screen size.
-* Links and functions work in the way expected.
+* Links and functions work as expected.
 * Information about what Plant Factory does.
 * A way to get in contact with Plant Factory.
 
@@ -64,7 +64,7 @@ Plant Factory would need to have a website to tell users a little bit about the 
 * To see examples of previous work carried out.
 * To be able to chat with someone online.
 * To be able to buy plants online.
-* How it works - from start to finish 
+* How it works - from start to finish.
 
 
 #### As a developer / business I expect
@@ -72,17 +72,16 @@ Plant Factory would need to have a website to tell users a little bit about the 
 * To provide an easy way for new and existing clients to contact us.
 * To showcase some of the work we are proudest of. 
 * To provide an easy to navigate website with links that work as expected.
-* To showcase customer testimonies and expect customer to read them.
-* For clients to be invoked into contacting us for a quote. 
+* To showcase customer testimonies and expect customers to read them.
+* To encourage clients to contact us for a quote. 
 
-*Note  that not all -What the user may wants- will be implamented at this step in the buisness, additional features may be added as the scope changes and the buisness grows. 
-
+*Note that not all -What the user may wants- will be implamentedimplemented at this step in the buisnessbusiness., Aadditional features may be added as the scope mandate changes and the buisnessbusiness grows.
 
 ### Structure
-The website will consist of 3 seperate seperate pages 
-* A home page with an about, benefits of plants and what we offer.  
-* A testimonals page with testimonies and pictures of the work with have previously carried out.  
-* A page with a form to contact the buisness. 
+The website will consist of 3 separate pages
+* A home page with “About”, “Benefits of plants” and “What we offer” sections. 
+* A “Testimonials” page with testimonies and pictures of the work we have previously done.  
+* A page with a form to contact the business. 
 
 ***
 
@@ -95,9 +94,12 @@ The website will consist of 3 seperate seperate pages
 
 #### Colour
 
-I have used rich green as my main colour theme for the website. This has been paired with an offwhite colour to ensure good contrast. This will help with Accessibility for visually impaired users. 
-This goes with the theme of the website and the business.  The business moto is making offices greener.  
-These colour features several times througout the website which is why I have set a varible in the code.  
+I have used rich green as my main colour theme for the website. This has been paired with an off-white colour for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the business. The business moto is making offices greener.  
+
+
+These colours feature several times throughout the website which is why I have set a variable in the code.
+
+
 I have used the following 
 
      :root {
@@ -110,19 +112,25 @@ I have used the following
 This means if the business decides at any point to change the key colours they can easily change it in the variable so that they do not need to go through and change every colour individually.     
 ![Colour scheme](README-files/colors.png)
 
-For the rest of the colour scheme, I have kept the range of colours to a minimum using only a few additional colours where needed.  I have used a mid brown and dark brown for some text.  This still ties in with the theme of nature but provides a better design. 
-Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dylexia) which is a processing perception problem. Which can cause issues with processing text and patterns.  Black on white has been shown as one of the most difficult for sufferers of visual stress to read.  
 
-I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image.  I had already decided to use green but hadnt decided on the exact shade. Although this was helpful in finding colours that worked well, I chose to alter the palette to my choosing. 
 
-I have purposely not used any red on the website as this may cause issued for people with a red/green colour defiency.
+For the rest of the colour scheme, I have kept the range of colours to a minimum using only a few additional colours where needed. I have used a mid-brown and dark brown for some text. This still ties in with the theme of nature but provides a better design. Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dyslexia). It is a processing perception problem which can cause issues with processing text and patterns. Black on white has been shown as one of the most difficult for sufferers of visual stress to read.
+
+
+I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image. I had already decided to use green but hadn’t decided on the exact shade. Although this was helpful in finding colours that worked well, I chose to alter the palette to my choosing.
+
+
+I have purposely not used any red on the website as this may have cause issues for people with a red/green colour deficiency.
+
 
 #### Typography 
 
-I have used https://fonts.google.com/ for my fonts.  I have chosen to use Yanone Kaffeesatz as my main font throughout the website.  This is a fairly modern looking style that is easy to read at various sizes.  To increase the readability, I have increased the letter spacing in most cases.  
-For the use in the headers, I have increased the letter spacing further to make the headings more defined and stand out. I have also used a varity of font weights to make some sections easier to read and stand out. 
+I have used https://fonts.google.com/ for my fonts.  I have chosen to use Yanone Kaffeesatz as my main font throughout the website.  This is a fairly modern style that is easy to read at various sizes.  To increase the readability, I have increased the letter spacing in most cases.  
 
-I have also used Comic Neue for the testimonies this is because the style is a little more playful and is a welcome change from the font used in the main body of the website. 
+For the use in the headers, I have increased the letter spacing further to make the headings more defined and stand out. I have also used a variety of font weights to make some sections easier to read and stand out. 
+
+I have also used Comic Neue for the testimonies. This is because the style is a little more playful and a welcome change from the font used in the main body of the website.
+
 
 I imported the following code into the top of my style.css file
 
@@ -134,15 +142,15 @@ I made all my call to actions as easy to see as possible.
 
 * The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
 * Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
-* Submit link on the form and the Contact Us link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
-* The Request a Quote in the main body of index.html and the Contact us in the Footer which takes them to the form. 
-* The social links will send the user to the companys social media pages.  They also change colour when hovered over.
+* "Submit link" on the form and the "Contact Us" link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
+* The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
+* The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
 ### Imagery   
 
-Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagary and text. 
-I used images of people in the testimonals and for the about section.  This was to make the business seem friendly and approachable. These images also grow on hover, this is so the user can see the images more clearly. 
-I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices
+
+Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagery and text. I used images of people in the testimonials and for the “About” section. This was to make the business seem friendly and approachable. These images also grow when hovered over. This is so the user can see the images more clearly. I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices.
+
 
 Image Links - 
 * [Hero](https://unsplash.com/photos/x2Tmfd1-SgA)
@@ -154,22 +162,24 @@ Image Links -
 * [Carousel Images](https://unsplash.com/photos/VWcPlbHglYc)
 * [Carousel Image ](https://unsplash.com/photos/p_kICQCOM4s)
 
-I also used a pattern background of leaves for the form page and the What we offer section.  This was to tie into the theme of the business and increase visual appeal. 
+I also used a pattern background of leaves for the "Contact us" page and the "What we Offer" section on the homepage.  This was to tie into the theme of the business and increase visual appeal. 
 
 [Pattern background](https://www.freepik.com/free-vector/mostera-background_4258347.htm#page=2&query=pattern+background+plant&position=46)
 
-Should the hero or pattern image fail there is a background color set so that the colours of the text can still be read. 
-The images in body of the website all have alt attributes.  This is to ensure that screen readers can describe the image to the user or if the image fails to load.  This is also to help with ranking of the website. 
+
+Should the hero or pattern image fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
 
 
 ### Skeleton 
 
+
 ### Layout 
 
-* I have used responsive design when creating the website as the page is expanded from a mobile some of the content goes from being stacked to be in adjacent coloumns.  This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted. 
-* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamenting into my code. 
-* I have also used a max-width, this is to ensure the content still looks good.  As this is a Business-to-Business company the decisions may not be made by an individual but as a collective.  This means that meetings may take place and the site presented on a larger screen.  The max-width keeps the website looking neat and professional. 
-* I have used containers paddings and margins to make sure that the content is not too close together. 
+* I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
+* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
+* I have also used a max-width, this is to ensure the content still looks good. As this is a Business-to-Business company the decisions may not be made by an individual but as a collective. This means that meetings may take place and the site presented on a larger screen. The max-width keeps the website looking neat and professional.
+* I have used containers, paddings and margins to make sure that the content is not too close together.
+
 
 #### Homepage Wire Frame 
 
@@ -200,64 +210,69 @@ The images in body of the website all have alt attributes.  This is to ensure th
 #### Universal Features Across the Site
 
 ###### Logo and Navigation Bar
-The Navigation is at the top of the webpage.  The logo and Nav links all change colour and are highlighted when hovered.  The nav links direct the user to the correct page of the site. When the logo is clicked it will take the user back to the home page.
-When the page is active, I used bootstraps class .text-uppercase this causes all the letter to be capitalized and made the text a different colour.  By having both these change it helps to improve the accessibility. 
-When on smaller devices the nav goes underneath the logo and it is centered.  For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo.  I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our 0ff-white and the text is our main green colour
+The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our off-white and the text is the main green colour.
+
 
 ###### Responsiveness
 
-As the page is scaled up and down for different screen resolutions the content stays neat.  This has been achieved using a mixture of media queries and Bootstraps responsive columns.
+The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using a mixture of media queries and Bootstraps responsive columns.
+
 
 ###### Accessibility
 
-All images and navigations have an alt attributes or aria-label.  This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. 
-There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. 
-With links being consistant when hovered over.  I have also set the font to rem so that if somone has they font settings higher for visabilty the font size will increase accordingly. 
+All images and navigations have an alt attributes or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over. I have also set the font to rem so that if someone has their font settings higher for visibility the font size will increase accordingly.
+
 
 ###### Footer 
 
-The footer split into 3 sections.  Opening Hours, Contact Info and Social. The colour used for the background is our main-green colour with a reduce opacity as the colour is very bold when at 100%. Theses are stacked on smaller devices and are arranged in 3 coloumns on larger devices.   
+The footer is split into 3 sections:. “Opening Hours”, “Contact Info” and “Social”. The colour used for the background is our the main-green colour with a reduced opacity as the colour is very bold when at 100%. Theses The three sections are stacked on smaller devices and are arranged in 3 coloumnscolumns on larger devices.
 
-The Opening Hours includes the times the office would be open.  The contact details offer alternative ways of getting in contact with the business.  Such as Address, telephone, and email.  The last section Social has links to social media sites using Icons from [Font Awesome](https://fontawesome.com/) When hovered over these change from a white colour to a different shade of green than the background. The social section also includes a Contact Us link that is styled as a button to premote contact to Plant Factory.
+
+The “Opening Hours” section includes the times the office would is be open. The “Ccontact Ddetails” section offers the user alternative different ways of getting in contact with the business,. sSuch as the business’ aAddress, telephone numbers, and email. The last section “Social” section has links to social media sites using Icons from Font Awesome. When hovered over these links change from a white colour to a different shade of green than the background. The “Ssocial” section also includes a “Contact Us” link that is styled as a button to premotepromote contact to Plant Factory.
 
 ##### Meta data
 
-I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labeled each page differently so if the client has multiple tabs open it is easy to know which tab is which. 
+
+I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
+
 
 *** 
 
 #### Features Specific to Pages
 
 ###### Homepage 
-* Includes a hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.  
-* About section with information of what Plant Factory does including an image of the owner.  On smaller devices is stacked, and in 2 columns on larger resolutions.
-* Benefits sections lists 3 benefits of having more plants in the office.  On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 serperate coloumns. 
-* What we offer section is displayed stacked on smaller devices and in 2 coloumns on larger screens and offers potential clients the option of potted plants or bespoke features. At the bottom of the option is another link to the contact us form. 
+* A hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.
+* An “About” section with information of what Plant Factory does, including an image of the owner. On smaller devices are stacked, and in 2 columns on larger resolutions.
+* A “Benefits sections” listing 3 benefits of having more plants in the office. On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 separate columns.
+* A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
 
 ###### Testimonial
-* Includes a carousel at the top, paired with an overlay for text colour contrast. The test includes information about the business that the work was carried out for and the type of option they opted for.  Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is says where each testimony is from. I have scaled the carousel images very large; this is because it is a showcase of the type of work the business has carried out.  
-* I have staggered the testimonies on all devices. 
+* The “Testimonial” page includes a carousel at the top, paired with an overlay for text colour contrast. The text includes information about the client and the type of option they opted for. Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is where each testimony is from. I have scaled the carousel images to be large. This is because it is a showcase of the type of work the business has carried out.
+* I have staggered the testimonies on all devices.
+ 
 
 ##### Form 
-* The Form page consists of the form and universal features only.  
-* The form includes fields for the user to enter their business name and contact using - input type="text"
-* The input field for email requires the answer to be an email 
-* The number must be a number to be valid. 
-* Prefernces for contact method is by use of a radio button as there is an option for both to be selected and no errors made causing potential upset to the client. 
-* Options they would like to talk about is a checklist.  This is to make sure when the form is submitted it goes to the correct team.
-* There is a - textarea - to allow the client to ask any further details.  I have used placeholder text to encourage the user to make any further comments. 
+* The “Form” page consists of the form and universal features only.
+* The form includes fields for the user to enter their business name and contact details using - input type="text"
+* The email input field requires the answer to be an email
+* The phone number input field must be a number to be valid.
+* The preferred contact method is selected using a radio button. This is because there is an option for both contact methods to be selected. By using a radio button errors are avoided that may upset the user.
+* Options they would like to talk about is a checklist. This is to ensure the submitted form goes to the correct team.
+* There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments.
 * The submit button is large and changes colour when hovered over.
-* The form is stacked for mobile use.  For the larger screens, the radio buttons and check list appear inline.
-* The labels are clear as to what should go in the field and all fields are set to required. 
+* The form is stacked for mobile use. For the larger screens, the radio buttons and check list appear inline.
+* The labels are clear as to what should go in the field and all fields are set to “required”.
+
 
 I have set the form to POST with an action of "contact.php" this will not currently go anywhere as github pages is static hosting only. 
 
 ### Future Features 
 
 * Nav collapses on mobile
-* Has a log in area where clients can chat online with memebers of the team and has the ability to share designs and discuss offers. 
-* Has a form submited status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.  
-* Create an option for businesses to buy smaller plants online with a way to make online payments. 
+* Has a log in area where users can chat online with members of the team and has the ability to share designs and discuss offers.
+* Has a “form submitted” status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.
+* Create an option for businesses to buy smaller plants online with a way to make online payments.
+
     
 
 ***
@@ -271,7 +286,7 @@ I have set the form to POST with an action of "contact.php" this will not curren
 * GIT - for version control of the project.
 
 Design 
-* [Bootstrap](https://getbootstrap.com/) - For responsive design/carousel - overwriten some coe within my own stylesheet
+* [Bootstrap](https://getbootstrap.com/) - For responsive design/carousel - overwritten some code within my own stylesheet
 * [Google fonts](https://fonts.google.com/) - For styling the typography
 * [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
 * [Font Awesome](https://fontawesome.com/) - for social media icons
@@ -302,7 +317,9 @@ Testing
 [CSS Validator](https://validator.w3.org/)
 ![HTML Validator](README-files/css-valid.png)
 
-A few warnings were displayed when using the validator this is because of the varibles I have used to help with the maintenence of the site.  The other error is due to using external style sheets. I am happy with the outcome of this test. 
+
+A few warnings were displayed when using the validator this is because of the variblesvariables I have used to help with the maintenencemaintenance of the site. The other error is due to the useing of external style sheets. I am happy with the outcome of this test.
+
 
 ### Usability Testing
 
@@ -310,17 +327,17 @@ I sent the project to a few of my peers in the slack community and to a few frie
 One of my friends viewed the project in simplified mode and commented that the website was still easy to navigate and displayed clearly. 
 
 
-I wanted to carry out Accessibility Testing on the website.  I used [Wave](https://wave.webaim.org/) This was to check to make sure the website the website would work well with screen readers.  I also manually checked the web site by increased the REM settings on my browser and making sure that the content was still visable.  This highlighted a BUG which was FIXED prior to deployment. 
+I wanted to carry out Accessibility Testing on the website.  I used [Wave](https://wave.webaim.org/) This was to check to make sure the website the website would work well with screen readers.  I also manually checked the web site by increased the REM settings on my browser and making sure that the content was still visible.  This highlighted a BUG which was FIXED prior to deployment. 
 
     
 ### Browser Compatibility
 
 Tested on Chrome, Firefox, Brave, Internet Explorer, Microsoft Edge, Safari.
-I tested on older version of Internet Explorer, the website works from Internet Explore 9 and onwards, although not all the content is as designed the overall layout means the content is still easy to read and the images are still visable. 
+I tested on older version of Internet Explorer, the website works from Internet Explore 9 and onwards, although not all the content is as designed the overall layout means the content is still easy to read and the images are still visible. 
 I used [IE NetREnderer](https://netrenderer.com/index.php) to test the older versions. 
 
 ### OS Compatibility
-Tested on iOS, Android 10, and Windows 10. - Asked a friend with an IPhone that it was working.  
+Tested on iOS, Android 10, and Windows 10. - I asked a friend with an IPhone to test that it was working.  
 Tested for responsiveness using Chrome DevTools.
 
 ### Performance Testing
@@ -328,23 +345,23 @@ Tested on the Developer Tools Lighthouse.  This was the first time running throu
 
 ![Lighthouse results](README-files/lighthouse-before.png)
 
-I maded some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
+I made some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
 
 ![Lighthouse results](README-files/lighthouse-after.png)
 
 ### Testing User Stories
 
 * ###### A user looking for office plants to add to the office or workspace or business. 
-The user can find the information quickly on the first page of the site that this is something that we offer, the user is given the option to get in contact and can have a look at testimonies and images of work carried out. 
+The user can find the information quickly on the first page of the site. The user is given the option to get in contact with us and can have a look at testimonies and images of work carried out.
 * ###### A user looking to install a plant feature. 
 The user can easily see that this is something we offer.   
 The user is given the option to get in contact and can have a look at testimonies and images of work carried out previously. 
 * ###### A user who already has a quotation but wants to get in contact.
-The user can find our contact details in the footer, this includes a phone number, address, and email.  There is also a big button that the user can click to be taken to a seperate page to contact us. 
+The user can find our contact details in the footer, this includes a phone number, address, and email.  There is also a big button that the user can click to be taken to a page to contact us. 
 * ###### A user doing research on what we offer. 
-The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open them can navigate between them easily. 
+The user can find information about what services we offer on the main page, can then go onto looking at testimonies and images of work we have previously carried out. Each tab has a different description so if the user has more than one tab open they can navigate between them easily. 
 * ###### A user looking to see if we have done previous work. 
-Easy to navigate to from the main page.  Testiomials clearly seen in the nav bar. 
+Easy to navigate to and from the main page. Testimonials clearly seen in the nav bar.
 * ###### A user showing the site to other people within their business.   
 Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
 
@@ -352,17 +369,17 @@ Max-width set so if the site is being shown in a meeting or on a larger screen t
 
 ## Deployment 
 
-### Adding and Commiting files
+### Adding and Committing files
 
 To add files to the repository take the following steps
 
 In the command line type -
         git add .  
-        git commit -m "This is being commited"
+        git commit -m "This is being committed"
         git push
 
-For adding use .  - to add all files or to add a single the pathway to the file eg .index.html  or assets/css/style.css
-For committing make sure your comments are clear about what changes have been made
+To add all new files or modified file use " ."  - To add a single file use the pathway to the file eg .index.html  or assets/css/style.css
+When committing make sure your comments are clear about what changes have been made. 
 Pushing will send your work to the repository
 
 ### Deployment 
@@ -370,7 +387,7 @@ Pushing will send your work to the repository
 The project was deployed with the following steps
 
 * Logged into git hub
-* Clicked the "Settings" button in the menu aboove the Repository.
+* Clicked the "Settings" button in the menu above the Repository.
 * Scroll down the Settings page to the "GitHub Pages" Section.
 * Under "Source", click the dropdown called "None" and then select "Master Branch".
 * The page will automatically refresh, and a link displaced.  It may take some time for the link to show the website.
@@ -381,7 +398,9 @@ The project was deployed with the following steps
 ### Forking
 
 Forking the GitHub Repository
-By forking the GitHub Repository, you can make a copy original repository on our GitHub account.  This means we can view or make changes without making the changes affect the original.
+
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account.  This means we can view or make changes without making the changes affecting the original.
 
 * Log into GitHub and locate the GitHub Repository.
 * At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
@@ -392,7 +411,7 @@ By forking the GitHub Repository, you can make a copy original repository on our
 Making a Local Clone
 
 * Log into your GitHub then find the gitpod repository
-* Under the repository name there is a button that say "Clone or download" click this.
+* Under the repository name there is a button that says "Clone or download". Click on this button.
 * If cloning with HTTPS "Clone with HTTPS", copy this link.
 * Open Gitbash
 * Change the current working directory to the location where you want the cloned directory to be.
@@ -409,7 +428,7 @@ Making a Local Clone
 [Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
 
 ## Known Bugs 
-* BUG -There was an issue with testimonal when the content was view on a phone in landscape mode. FIX - I changed the layout of the page so the content would render better. 
+* BUG -There was an issue with testimonial when the content was view on a phone in landscape mode. FIX - I changed the layout of the page so the content would render better. 
 * BUG- The text on the carousel takes a moment to snap to uppercase.  This is likely because of the delay in reaching the Bootstrap style sheet. FIX -Written the follow code directly into my style.css 
          
          .carousel-caption h5, .carousel-caption p {
@@ -420,7 +439,7 @@ Making a Local Clone
         text-transform: uppercase;
          }
 
-* BUG- When the rem size is increased on a user screen the text on the hero image is lost and the form is cut off form the bottom.  FIX - Changed the code so that the container-pattern-form was set to min-content.  I changed the position of the jumbotron.  
+* BUG- When the rem size is increased on a users screen the text on the hero image is lost and the form is cut off from the bottom.  FIX - Changed the code so that the container-pattern-form was set to min-content.  I changed the position of the jumbotron.  
 * BUG The links to social media were not working. FIX the URL to the website had a typo. 
 ***
 
@@ -428,12 +447,12 @@ Making a Local Clone
 
 ### Credit
 
-* Brian Macharia- Mentor support, guidence, tips and key things to look out for throughout the project. Helping me to check for errors and looking at my code. 
+* Brian Macharia- Mentor support, guidance, tips, and key things to look out for throughout the project. Helping me to check for errors and looking at my code. 
 * Matt Rudge - Template for gitpod.io 
 * Rob Beaney - for testing and reporting any bugs or issues, helping me to trouble shoot an issue with positioning. 
 * Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
 * Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
-* Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonal landscape bug, also for pointing out the social links were not working. 
+* Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonial landscape bug, also for pointing out the social links were not working. 
 
 * [Bootstrap](https://mdbootstrap.com/)  - Carousel used and customised for use in the project. 
 * [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
