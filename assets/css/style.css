@@ -40,7 +40,6 @@ body {
     background-color: rgba(11, 114, 11, 0.72);
 }
 
-
 /*------------------------------Generic Typography*/
 div {
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -199,9 +198,16 @@ div .jumbotron {
     font-size: 0.8rem;
     letter-spacing: 0.06rem;
     text-transform: uppercase;
-
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators {
+    filter: invert(1);
+}
 
 /*----------------------------------Body */
 

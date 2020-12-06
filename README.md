@@ -254,7 +254,7 @@ I have included descriptions, author, and keywords into the head element to incr
 * A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
 
 ###### Testimonial
-* The “Testimonial” page includes a carousel at the top, paired with an overlay for text colour contrast. The text includes information about the client and the type of option they opted for. Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is where each testimony is from. I have scaled the carousel images to be large. This is because it is a showcase of the type of work the business has carried out.
+* The “Testimonial” page includes a carousel at the top, paired with an overlay for text colour contrast. The carousel gives the user the ability to click on the arrow to go forward or back and also allows the user to change which image is viewed using the buttons on the bottom. I changed the controls on the carousel to invert the colour from the standard white so it would be easier to see. The text includes information about the client and the type of option they opted for. Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is where each testimony is from. I have scaled the carousel images to be large. This is because it is a showcase of the type of work the business has carried out. 
 * I have staggered the testimonies on all devices.
  
 
