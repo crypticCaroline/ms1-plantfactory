@@ -243,6 +243,10 @@ The “Opening Hours” section includes the times the office would is be open. 
 I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
 
 
+##### Redirect
+
+I have also included a redirect file so if any of the links don't work or the page does not show up they are redirected back to the homepage. Please see credit for the code used for this function. 
+
 *** 
 
 #### Features Specific to Pages
@@ -480,6 +484,7 @@ Making a Local Clone
 * [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
 * [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
 * [Tiny PNG](https://tinypng.com/) – changing some images to smaller sizes
+* [HTML Online](https://html-online.com/articles/smart-404-error-page-redirect/) - Redirect page 
 
 
 
@@ -517,6 +522,30 @@ Carousel taken directly from bootstrap - altered to fit needs
         </a>
         </div>
 
+
+
+* Code customised for use of the website from [HTML-online](https://html-online.com/articles/smart-404-error-page-redirect/)
+
+        <!doctype html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Redirecting</title>
+        </head>
+        <body onload="redirect()">
+            <h1 style="text-align: center; padding-top: 50px; display: block;">Redirecting...</h1>
+            <script>
+            function redirect() {
+                setTimeout(function(){ 
+                        window.location.replace("/");
+                    }
+                    , 100);	
+                }
+            </script>
+        </body>
+        </html>
 ***
 
 ### Content:
