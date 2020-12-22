@@ -673,7 +673,7 @@ footer .mid-button:hover {
     }
 
     .container-about {
-        padding-top: 90px;
+        padding-top: 45px; /* This was changed from 90px to 45px after submission */
     }
 
     .about-img-container {
